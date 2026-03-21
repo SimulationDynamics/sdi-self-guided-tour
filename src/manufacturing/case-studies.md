@@ -6,7 +6,9 @@ showGrid: true
 
 ## Case Studies: Manufacturing
 
-<img src="/images/CaseStudiesAllMfg.png" alt="Case Studies: Manufacturing" />Plus, a couple more:
+<img src="/images/CaseStudiesAllMfg.png" alt="Case Studies: Manufacturing" />
+
+Plus, a couple more:
 
 - [Case Study: Food Processing Capacity Optimization](#food-processing-capacity-optimization)
 - [Case Study: Real-Time Process Coaching - AdaptiveCoaching.ai](#real-time-process-coaching)
