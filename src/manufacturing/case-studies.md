@@ -37,6 +37,7 @@ Simulation Dynamics built a model to help a chemical manufacturer assess alterna
 - Alternative scheduling parameters
 
 - Alternative bagging line configurations. In the current setup, bag lines are tied to bulk manufacturing lines:
+
   <img src="/images/CaseChemMfgExistingConfig.png" alt="Case Study - Chemical Manufacturing Model" />
 
   The "To-Be" configuration decoupled this tie, by introducing some short-term storage:

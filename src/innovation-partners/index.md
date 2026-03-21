@@ -78,33 +78,33 @@ SDI strategically partners with [Process Partners](https://process-partners.com/
 
 #### Breakthrough Cereal Manufacturing Technology
 
-**The Innovation:** [Jim Breslin's](https://www.linkedin.com/in/james-breslin-ab91007/) patented corn grit reconstitution technology enables cereal manufacturers to shelf-stabilize partially-cooked corn grits and continue processing (flaking) at different locations. This revolutionary approach could save tens of millions of dollars industry-wide.
+**The Innovation:** [Jim Breslin's](https://www.linkedin.com/in/james-breslin-ab91007/) patented decoupling technology addresses a key bottleneck in flaked cereal production lines where cooker capacity exceeds oven throughput. By enabling manufacturers to shelf-stabilize partially-cooked corn grits and continue processing (flaking) at different locations or times, this approach could save tens of millions of dollars industry-wide.
 
-**SDI's Contribution:** Built a comprehensive Discrete Rate Simulation model to explore and quantify the opportunities, with the model running live in the cloud for customer collaboration.
+**SDI's Contribution:** Built the [Decoupling Simulator](https://apps.chiaha.com/DecouplingSimulator), a comprehensive production simulation tool built on ReliaSim's Discrete Rate Simulation engine. The simulator models the entire production flow — 12 parallel cookers, hot temper surge bin, 16 mills, 4 ovens, and decoupling modules (off-ramp dryer, tote storage, on-ramp feeder) — using rate-based dynamics rather than individual units, enabling annual scenarios to run in seconds.
 
-**Live Demonstration:** [Cloud-based Reconstitution Model](https://reconstitutionmodel.azurewebsites.net/?#token=9CB6C2E0-5235-4F06-8AA3-030F2058A74E/) - Interactive simulation accessible online, demonstrating SDI's Model-Based Applications approach.
+**Live Demonstration:** [Decoupling Simulator](https://apps.chiaha.com/DecouplingSimulator) - Interactive cloud-based simulation demonstrating SDI's Model-Based Applications approach. Users can adjust on/off-ramp machines, tote storage capacity, transfer rates, surge bin size, and downtime parameters to explore alternative process flows.
 
 #### Model Purpose
 
-To enable technology inventors to collaborate directly with customers, allowing decision-makers to explore production system implications using business language rather than simulation terminology.
+To enable technology inventors to collaborate directly with customers, allowing decision-makers to explore production system implications and quantify the impact of storage and buffering systems before implementation — using business language rather than simulation terminology.
 
 #### Key model inputs
 
 - Real production data including 1-year Vitamin Weigh Belt history
-- Production system parameters for cooking and stabilization processes
+- Production system parameters for cooking, stabilization, and decoupling processes
 - Warehouse capacity and storage requirements
 - Investment cost parameters for equipment sizing
 
 #### System Performance Measures
 
-- Substantial throughput improvements with high confidence level
-- Investment decision support accessible to business leaders
-- Technology validation and sizing through interactive scenarios
-- Direct customer collaboration capability through business-friendly interface
+- Cooker utilization profiles, production curves, packaging loads, and inventory levels
+- 1% efficiency accuracy validated against real production data
+- 1,200x faster than legacy discrete event tools
+- Potential to increase production by 20% or more during peak periods
 
 ### Project Results
 
-The simulation enabled the technology inventor to design and size systems for various operating conditions, identify substantial throughput improvements, and explore options directly with customers using the cloud-based model.
+The Decoupling Simulator enables technology inventors to design and size systems for various operating conditions, identify substantial throughput improvements, and explore options directly with customers through the cloud-based model.
 
 - Substantial throughput improvements identified with high confidence level of attainment
 - Direct customer collaboration through business-friendly simulation interface
