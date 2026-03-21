@@ -40,7 +40,7 @@ SDI worked with Symbotic to help design their "Warehouse of the Future" through 
 
 The following screenshot shows this model mid-state. A running animation of this is on our YouTube channel [at this link](https://youtu.be/35bCAt1XW-4?si=DQPnD9flTqPdYcrH).
 
-<img src="/images/CaseAutomatedWarehouse.png" alt="Automated Warehouse Model" />
+<a href="https://youtu.be/35bCAt1XW-4?si=DQPnD9flTqPdYcrH" target="_blank"><img src="/images/CaseAutomatedWarehouse.png" alt="Automated Warehouse Model — click to watch animation on YouTube" style="cursor:pointer;" /></a>
 
 ### Project Results
 
