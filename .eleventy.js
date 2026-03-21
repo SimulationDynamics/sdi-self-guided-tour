@@ -30,6 +30,6 @@ module.exports = function(eleventyConfig) {
     },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
-    pathPrefix: "/sdi-self-guided-tour/"
+    pathPrefix: "/"
   };
 };
