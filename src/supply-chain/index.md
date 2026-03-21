@@ -140,14 +140,14 @@ Several factors can require that the basic safety stock equation be modified, or
 
 1. *Impact of Cycle Stock*
 
-   The basic equation for safety stock assumes that orders will be placed periodically (daily, weekly) to maintain inventory levels at or above the calculated safety stock level. Deliveries to the inventory may be supplemented by cycle stock that results from long production runs at the supplier, or economic order size considerations.
-   This chart illustrates a case where safety stock has been calculated at 66 units. However, the product is ordered in lots of 1000 units. With demand of 100 units per day, orders are placed on a 10 day cycle. Realistically, the inventory could only stock-out on the last day or two of the ordering cycle. Since the 66 unit safety stock is derived from the basic equation, it assumes daily reordering and the possibility of running out on any day. As a result the safety stock is over sized.
+The basic equation for safety stock assumes that orders will be placed periodically (daily, weekly) to maintain inventory levels at or above the calculated safety stock level. Deliveries to the inventory may be supplemented by cycle stock that results from long production runs at the supplier, or economic order size considerations.
+This chart illustrates a case where safety stock has been calculated at 66 units. However, the product is ordered in lots of 1000 units. With demand of 100 units per day, orders are placed on a 10 day cycle. Realistically, the inventory could only stock-out on the last day or two of the ordering cycle. Since the 66 unit safety stock is derived from the basic equation, it assumes daily reordering and the possibility of running out on any day. As a result the safety stock is over sized.
 
 <img src="/images/ScStockDesignCycleStock.png" alt="Chart of overordering due to cycle stock" />
 
-   If the original safety stock was based on a order fill goal of 99%, a new safety stock level could be roughly calculated based on a goal of 90%, since there is only one out of 10 days on which a stock out could occur.
+If the original safety stock was based on a order fill goal of 99%, a new safety stock level could be roughly calculated based on a goal of 90%, since there is only one out of 10 days on which a stock out could occur.
 
-   Note that in this example the order cycle is not a fixed period. If the inventory gets to its order point in 8 days, an order for 1000 units will be placed.
+Note that in this example the order cycle is not a fixed period. If the inventory gets to its order point in 8 days, an order for 1000 units will be placed.
 
 2. *Delivery Delays*
 
@@ -157,45 +157,45 @@ Several factors can require that the basic safety stock equation be modified, or
 
 There are many potential causes of variation in delivery times. For this discussion, we assume causes of delay which can be characterized by a standard deviation. The critical factor in this analysis is not how late any individual shipment is, but rather, how many shipments might be late at any one time. For example, if the probability of 6 shipments being late is within the service performance goal of a node, then safety stock must be provided to cover this possibility.
 
-   The critical factor in determining the number of shipments that might be late at any one time is the ratio of the delivery time standard deviation to the order cycle. For example if the standard deviation of the deliver time is 4 days, and orders are placed every two days, then the cycle standard deviation is 2 cycles. The average process duration is not relevant to this calculation. The same cycle standard deviation would result from a process duration standard deviation of 14 days and an order cycle of 7 days.
+The critical factor in determining the number of shipments that might be late at any one time is the ratio of the delivery time standard deviation to the order cycle. For example if the standard deviation of the deliver time is 4 days, and orders are placed every two days, then the cycle standard deviation is 2 cycles. The average process duration is not relevant to this calculation. The same cycle standard deviation would result from a process duration standard deviation of 14 days and an order cycle of 7 days.
 
-   Once the cycle standard deviation is known, the probability of N shipments being late can be approximated, where N can be any combination of shipments. The table below gives this approximation for values of N from 1 to 10 and cycle standard deviations from 2 to 16. The shaded area indicates numbers of late shipments that must be protected by safety stock.
+Once the cycle standard deviation is known, the probability of N shipments being late can be approximated, where N can be any combination of shipments. The table below gives this approximation for values of N from 1 to 10 and cycle standard deviations from 2 to 16. The shaded area indicates numbers of late shipments that must be protected by safety stock.
 
 <img src="/images/ScStockDesignDeliveryDelaysTable.png" alt="Table for delivery delay process variability" />
 
 3. *Fixed reorder cycle*
 
-   In the case illustrated below, orders are placed every 10 days. Forecasted demand is 100 units per day. The calculated safety stock of 66 units was based on the assumption that orders will be placed every day to cover forecasted demand AND the forecast error of the prior day. As can be seen in the first order cycle below, demand for the period was 1150 units, 150 over forecast. Stock ran out in the middle of the 9th day of the cycle.
+In the case illustrated below, orders are placed every 10 days. Forecasted demand is 100 units per day. The calculated safety stock of 66 units was based on the assumption that orders will be placed every day to cover forecasted demand AND the forecast error of the prior day. As can be seen in the first order cycle below, demand for the period was 1150 units, 150 over forecast. Stock ran out in the middle of the 9th day of the cycle.
 
 <img src="/images/ScStockDesignFixedReorder.png" alt="Fixed reorder cycle inventory graph" />
 
-   The effect of a fixed order cycle is to add the number of days in the cycle to the reorder time. The amount of stock ordered for each cycle must be sufficient to cover forecast error for the entire time until the next delivery.
+The effect of a fixed order cycle is to add the number of days in the cycle to the reorder time. The amount of stock ordered for each cycle must be sufficient to cover forecast error for the entire time until the next delivery.
 
 4. *Fill rate goal*
 
-   Safety stock design algorithms are based on specification of order fill rate where total orders are divided into orders filled on time. 'Orders' here refers to line item orders. Modeled supply chain performance can be weighted by order size or value.
+Safety stock design algorithms are based on specification of order fill rate where total orders are divided into orders filled on time. 'Orders' here refers to line item orders. Modeled supply chain performance can be weighted by order size or value.
     
 
 <img src="/images/ScStockDesignFillRateGoal.png" alt="Probability of Achieving Goal over 100 Week Period" />
 
-   Life cycle order fill performance may require two levels of analysis. In the example show in the graph, a product has a 100 week life. The customer goal is to have a 95% probability that the fill rate for this product will be at or above 99%. The yellow plot shows that to achieve 99% fill rate 95% of the time, an average performance of 99.7% would be required.
+Life cycle order fill performance may require two levels of analysis. In the example show in the graph, a product has a 100 week life. The customer goal is to have a 95% probability that the fill rate for this product will be at or above 99%. The yellow plot shows that to achieve 99% fill rate 95% of the time, an average performance of 99.7% would be required.
 
 5. *Intermittent demand*
-   The challenge presented by intermittent demand is that demand events will occur earlier than average, before stock has arrived to cover it. For this reason substantially increased safety stock is required based on calculations of how many excess demand events will occur during the lead time period. An algorithm has been developed to make this calculation both at customer facing inventories and at nodes which supply customers with varying patterns of demand. The logic is summarized below.
+The challenge presented by intermittent demand is that demand events will occur earlier than average, before stock has arrived to cover it. For this reason substantially increased safety stock is required based on calculations of how many excess demand events will occur during the lead time period. An algorithm has been developed to make this calculation both at customer facing inventories and at nodes which supply customers with varying patterns of demand. The logic is summarized below.
    
 
 <img src="/images/ScStockDesignIntermittentDemand.png" alt="Intermittent Demand" />
 
-   **Be ready for the next demand event:** At any given time there must be sufficient safety stock on hand to meet the next demand event. This amount can be computed based on the target percent orders filled, the mean demand amount and the normal distribution of the demand event interval.
+**Be ready for the next demand event:** At any given time there must be sufficient safety stock on hand to meet the next demand event. This amount can be computed based on the target percent orders filled, the mean demand amount and the normal distribution of the demand event interval.
 
-   **Cover** **EXCESS** **demand events**: if a demand event occurs before stock is delivered that was intended to meet it, there will be a missed order unless there is stock on hand to cover that amount. For example, say the mean demand interval is 10 days, and the procurement time for the inventory is 10 days. Nominally, safety stock could be sized to meet a single demand event assuming that the next shipment will be received before the next demand event. But since there is variation in the demand interval, the next demand event might well occur before the 10 day procurement time has elapsed. Therefore, there must be stock to cover two demand events.
+**Cover** **EXCESS** **demand events**: if a demand event occurs before stock is delivered that was intended to meet it, there will be a missed order unless there is stock on hand to cover that amount. For example, say the mean demand interval is 10 days, and the procurement time for the inventory is 10 days. Nominally, safety stock could be sized to meet a single demand event assuming that the next shipment will be received before the next demand event. But since there is variation in the demand interval, the next demand event might well occur before the 10 day procurement time has elapsed. Therefore, there must be stock to cover two demand events.
 
-   Depending on the interval variation, there might be additional demand events during the procurement time. A computation method has been designed to determine the stock required to cover interval variation as a function of lead time, mean interval, and interval variation.
+Depending on the interval variation, there might be additional demand events during the procurement time. A computation method has been designed to determine the stock required to cover interval variation as a function of lead time, mean interval, and interval variation.
 
 6. *Capacity constraints*
-   Safety stock is an inappropriate solution to the problem of periodic capacity constraints. Alternative approaches for dealing with capacity constraints are discussed in this document at [Production Capacity](/supply-chain/production/#production-capacity).
+Safety stock is an inappropriate solution to the problem of periodic capacity constraints. Alternative approaches for dealing with capacity constraints are discussed in this document at [Production Capacity](/supply-chain/production/#production-capacity).
 
-   To the extent that pre-building of reserves for periods of high demand creates additional stock at zero service time inventories, safety stocks can be reduced for the same reasons as discussed under Impact of cycle Stock for customers.
+To the extent that pre-building of reserves for periods of high demand creates additional stock at zero service time inventories, safety stocks can be reduced for the same reasons as discussed under Impact of cycle Stock for customers.
 
 ##### Case Studies
 

@@ -107,14 +107,14 @@ Other plants may not normally be preferred because production or shipping costs 
 
 1. Demand Shaping
 
-   Demand shaping broadly entails efforts to match demand with productive capacity. Demand management techniques include customer incentives, reseller incentives, and sales compensation.
+Demand shaping broadly entails efforts to match demand with productive capacity. Demand management techniques include customer incentives, reseller incentives, and sales compensation.
 
-   For a concise summary of current practices, see [Best Practices in Demand Shaping](http://www.oracle.com/global/kr/download/seminar/2007/mrd/mrd_session2-1.pdf.) by Oracle.
+For a concise summary of current practices, see [Best Practices in Demand Shaping](http://www.oracle.com/global/kr/download/seminar/2007/mrd/mrd_session2-1.pdf.) by Oracle.
 
-   Simulation provides an effective tool for assessing combinations of production and demand scenarios.
+Simulation provides an effective tool for assessing combinations of production and demand scenarios.
 
 2. Overtime
-   The first recourse in dealing with periods of demand over capacity is to add production shifts, requiring overtime. Simulation allows assessment of the trade-off between increasing capacity and reducing the need for overtime.
+The first recourse in dealing with periods of demand over capacity is to add production shifts, requiring overtime. Simulation allows assessment of the trade-off between increasing capacity and reducing the need for overtime.
    
 
 <img src="/images/ScProductionCapacityOvertime.png" alt="Capacity versus overtime" />
