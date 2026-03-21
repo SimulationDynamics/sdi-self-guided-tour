@@ -148,7 +148,7 @@ The following list provides links to articles within this document that address 
 
 ### Documentation
 
-*[Capacity Planning Simulation of an Olive Processing Plant](https://www.researchgate.net/publication/253124003_CAPACITY_PLANNING_SIMULATION_OF_AN_OLIVE_PROCESSING_PLANT)*
+*[Capacity Planning Simulation of an Olive Processing Plant](https://simulationdynamics.com/wp-content/uploads/2026/03/olive.pdf)*
 
 ---
 
