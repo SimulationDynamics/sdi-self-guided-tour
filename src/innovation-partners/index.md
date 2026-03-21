@@ -5,6 +5,21 @@ description: Case studies featuring SDI innovation partnerships — Automated Wa
 showGrid: true
 ---
 
+# Case Studies: Innovation Partners
+
+SDI strategically partners with industry leaders to develop breakthrough technologies:
+
+<div class="section-nav">
+<h4>Case Studies</h4>
+
+<ul>
+<li class="case-study"><a href="#automated-warehouse">Automated Warehouse System Design</a><div class="description">94% productivity improvement in multimodal robotic warehousing (Symbotic)</div></li>
+<li class="case-study"><a href="#process-partners">Process Partners Innovation Collaboration</a><div class="description">Decoupling Simulator for breakthrough cereal manufacturing technology</div></li>
+</ul>
+</div>
+
+---
+
 <h2 id="automated-warehouse">Automated Warehouse System Design</h2>
 
 ### Background

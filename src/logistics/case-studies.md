@@ -6,6 +6,17 @@ showGrid: true
 
 # Case Studies: Logistics
 
+The following case studies illustrate SDI's logistics simulation work:
+
+<div class="section-nav">
+<h4>Case Studies</h4>
+
+<ul>
+<li class="case-study"><a href="#vinlogic-model">VINLogic Model</a><div class="description">transport of vehicles from plants to dealers — $1B+ annual savings</div></li>
+<li class="case-study"><a href="#tloads-model">TLoaDS Model</a><div class="description">re-supply of Marine units from supply ships</div></li>
+</ul>
+</div>
+
 <img src="/images/CaseStudiesAllLogistics.png" alt="Case Studies: Logistics">
 
 ---

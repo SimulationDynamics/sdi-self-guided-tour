@@ -6,9 +6,22 @@ showGrid: true
 
 # Case Studies: Resource Management
 
-![Case Studies: Resource Management](/images/CaseStudiesAllResourceManagement.png)
+The following case studies illustrate SDI's resource management simulation work:
 
-[Case Study: Life Cycle Resource Management Model](/manufacturing/case-studies/#life-cycle-resource-management) - use link
+<div class="section-nav">
+<h4>Case Studies</h4>
+
+<ul>
+<li class="case-study"><a href="#doe-equipment-rehab">DOE Equipment Rehab Model</a><div class="description">25-year resource requirements for nuclear weapons complex</div></li>
+<li class="case-study"><a href="#tru-waste-system">TRU Waste System Model</a><div class="description">35-year waste processing, transportation, and disposal</div></li>
+<li class="case-study"><a href="#dynamic-ground-segment">Dynamic Ground Segment Model</a><div class="description">Delta IV launch vehicle assembly validation</div></li>
+<li class="case-study"><a href="#kbr-services">KBR Services Model</a><div class="description">facility maintenance service contract estimation</div></li>
+<li class="case-study"><a href="#communications-network">Communications Network Model</a><div class="description">network capacity and call routing simulation</div></li>
+<li class="case-study"><a href="#project-task-network">Project Task Network Model</a><div class="description">task precedence and resource-constrained scheduling</div></li>
+</ul>
+</div>
+
+<img src="/images/CaseStudiesAllResourceManagement.png" alt="Case Studies: Resource Management" />
 
 ---
 

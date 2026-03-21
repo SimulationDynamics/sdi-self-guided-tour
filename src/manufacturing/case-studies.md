@@ -4,14 +4,21 @@ title: "Manufacturing: Case Studies"
 showGrid: true
 ---
 
-## Case Studies: Manufacturing
+# Case Studies: Manufacturing
+
+The following case studies illustrate SDI's manufacturing simulation work:
+
+<div class="section-nav">
+<h4>Case Studies</h4>
+
+<ul>
+<li class="case-study"><a href="#chemical-packaging-model">Chemical Packaging Model</a><div class="description">assessment of alternative bagging line configurations and scheduling parameters</div></li>
+<li class="case-study"><a href="#food-processing-capacity-optimization">Food Processing Capacity Optimization</a><div class="description">15% throughput improvement through scheduling optimization</div></li>
+<li class="case-study"><a href="#real-time-process-coaching">Real-Time Process Coaching - AdaptiveCoaching.ai</a><div class="description">real-time operator decision support for industrial food processing</div></li>
+</ul>
+</div>
 
 <img src="/images/CaseStudiesAllMfg.png" alt="Case Studies: Manufacturing" />
-
-Plus, a couple more:
-
-- [Case Study: Food Processing Capacity Optimization](#food-processing-capacity-optimization)
-- [Case Study: Real-Time Process Coaching - AdaptiveCoaching.ai](#real-time-process-coaching)
 
 ------
 

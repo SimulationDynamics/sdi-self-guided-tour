@@ -5,7 +5,20 @@ description: Case studies in supply chain simulation — downstream packaging, i
 showGrid: true
 ---
 
-## Case Studies: Supply Chain
+# Case Studies: Supply Chain
+
+The following case studies illustrate SDI's supply chain simulation work:
+
+<div class="section-nav">
+<h4>Case Studies</h4>
+
+<ul>
+<li class="case-study"><a href="#downstream-packaging-model">Downstream Packaging Model</a><div class="description">assessment of moving packaging operations downstream to distribution centers</div></li>
+<li class="case-study"><a href="#inventory-deployment-model">Inventory Deployment Model</a><div class="description">upstream vs. downstream deployment of cycle stock</div></li>
+<li class="case-study"><a href="#general-mills">Revolutionary Supply Chain Understanding - General Mills</a><div class="description">"video view" vs. snapshots — transforming supply chain analysis</div></li>
+<li class="case-study"><a href="#life-cycle-resource-management">Life Cycle Resource Management Model</a><div class="description">capacity vs. demand mismatch across a product life cycle</div></li>
+</ul>
+</div>
 
 <img src="/images/CaseStudiesAllSupplyChain.png" alt="Case Studies: Supply Chain" />
 
