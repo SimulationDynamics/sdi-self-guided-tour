@@ -92,7 +92,7 @@ p {
 }
 
 a {
-  color: #2A7A85;
+  color: var(--sdi-coral);
   text-decoration: none;
   transition: color 0.2s;
 }
