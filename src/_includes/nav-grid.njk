@@ -1,0 +1,65 @@
+<div class="nav-grid">
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Strategic Assessment</th>
+        <th>Case Studies</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="row-label {% if not (page.url | startsWith('/manufacturing')) %}dimmed{% endif %}">Manufacturing</td>
+        <td>
+          <a href="/manufacturing/" title="Strategic Assessment: Manufacturing">
+            <span class="dot dot-strategic {% if not (page.url == '/manufacturing/') %}dimmed{% endif %} {% if page.url == '/manufacturing/' %}active{% endif %}"></span>
+          </a>
+        </td>
+        <td>
+          <a href="/manufacturing/case-studies/" title="Case Studies: Manufacturing">
+            <span class="dot dot-cases {% if not (page.url == '/manufacturing/case-studies/') %}dimmed{% endif %} {% if page.url == '/manufacturing/case-studies/' %}active{% endif %}"></span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="row-label {% if not (page.url | startsWith('/supply-chain')) %}dimmed{% endif %}">Supply Chain</td>
+        <td>
+          <a href="/supply-chain/" title="Strategic Assessment: Supply Chain">
+            <span class="dot dot-strategic {% if not (page.url | startsWith('/supply-chain/') and page.url != '/supply-chain/case-studies/') %}dimmed{% endif %} {% if page.url == '/supply-chain/' or page.url == '/supply-chain/production/' %}active{% endif %}"></span>
+          </a>
+        </td>
+        <td>
+          <a href="/supply-chain/case-studies/" title="Case Studies: Supply Chain">
+            <span class="dot dot-cases {% if not (page.url == '/supply-chain/case-studies/') %}dimmed{% endif %} {% if page.url == '/supply-chain/case-studies/' %}active{% endif %}"></span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="row-label {% if not (page.url | startsWith('/logistics')) %}dimmed{% endif %}">Logistics</td>
+        <td>
+          <a href="/logistics/" title="Strategic Assessment: Logistics">
+            <span class="dot dot-strategic {% if not (page.url == '/logistics/') %}dimmed{% endif %} {% if page.url == '/logistics/' %}active{% endif %}"></span>
+          </a>
+        </td>
+        <td>
+          <a href="/logistics/case-studies/" title="Case Studies: Logistics">
+            <span class="dot dot-cases {% if not (page.url == '/logistics/case-studies/') %}dimmed{% endif %} {% if page.url == '/logistics/case-studies/' %}active{% endif %}"></span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="row-label {% if not (page.url | startsWith('/resource-management')) %}dimmed{% endif %}">Resource Management</td>
+        <td>
+          <a href="/resource-management/" title="Strategic Assessment: Resource Management">
+            <span class="dot dot-strategic {% if not (page.url == '/resource-management/') %}dimmed{% endif %} {% if page.url == '/resource-management/' %}active{% endif %}"></span>
+          </a>
+        </td>
+        <td>
+          <a href="/resource-management/case-studies/" title="Case Studies: Resource Management">
+            <span class="dot dot-cases {% if not (page.url == '/resource-management/case-studies/') %}dimmed{% endif %} {% if page.url == '/resource-management/case-studies/' %}active{% endif %}"></span>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

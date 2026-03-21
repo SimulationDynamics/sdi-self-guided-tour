@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} — Simulation Dynamics</title>
+  <meta name="description" content="{{ description | default('SDI Self-Guided Tour — Simulation modeling for Manufacturing, Supply Chain, Logistics, and Resource Management') }}">
+  <link rel="icon" href="/logos/Logomark-Logo-SimulationDynamics-Color.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <button class="hamburger" onclick="toggleSidebar()" aria-label="Toggle navigation">&#9776;</button>
+    <a href="/">
+      <img src="/logos/Horizontal-Logo-SimulationDynamics-White.svg" alt="Simulation Dynamics">
+    </a>
+    <span class="site-title">Self-Guided Tour</span>
+  </header>
+
+  <div class="site-body">
+    <!-- Sidebar -->
+    <div class="sidebar-backdrop" id="sidebar-backdrop" onclick="toggleSidebar()"></div>
+    <aside class="sidebar" id="sidebar">
+      <nav>
+        {%- for item in navigation -%}
+          {%- if item.children.length > 0 -%}
+            <details class="sidebar-section" {% if page.url | startsWith(item.url) %}open{% endif %}>
+              <summary>{{ item.title }}</summary>
+              <div class="children">
+                {%- for child in item.children -%}
+                  <a href="{{ child.url }}" {% if page.url == child.url %}class="active"{% endif %}>{{ child.title }}</a>
+                {%- endfor -%}
+              </div>
+            </details>
+          {%- else -%}
+            <a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content prose">
+      {%- if showGrid %}
+        {% include "nav-grid.njk" %}
+      {% endif -%}
+
+      {{ content | safe }}
+
+      <!-- Prev / Next -->
+      {%- set pageList = pages -%}
+      {%- set currentIndex = -1 -%}
+      {%- for p in pageList -%}
+        {%- if p.url == page.url -%}
+          {%- set currentIndex = loop.index0 -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if currentIndex >= 0 -%}
+      <div class="page-nav">
+        <div>
+          {%- if currentIndex > 0 -%}
+            {%- set prev = pageList[currentIndex - 1] -%}
+            <a href="{{ prev.url }}">
+              <div class="label">&larr; Previous</div>
+              <div class="title">{{ prev.title }}</div>
+            </a>
+          {%- endif -%}
+        </div>
+        <div>
+          {%- if currentIndex < pageList.length - 1 -%}
+            {%- set next = pageList[currentIndex + 1] -%}
+            <a href="{{ next.url }}" class="next">
+              <div class="label">Next &rarr;</div>
+              <div class="title">{{ next.title }}</div>
+            </a>
+          {%- endif -%}
+        </div>
+      </div>
+      {%- endif -%}
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <img src="/logos/Horizontal-Logo-SimulationDynamics-White.svg" alt="Simulation Dynamics">
+    <p>&copy; 2026 Simulation Dynamics, Inc. &bull;
+      <a href="https://simulationdynamics.com">simulationdynamics.com</a>
+    </p>
+  </footer>
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('open');
+      document.getElementById('sidebar-backdrop').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

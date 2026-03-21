@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Home",
+    "url": "/",
+    "children": []
+  },
+  {
+    "title": "Manufacturing",
+    "url": "/manufacturing/",
+    "children": [
+      { "title": "Strategic Assessment", "url": "/manufacturing/" },
+      { "title": "Case Studies", "url": "/manufacturing/case-studies/" }
+    ]
+  },
+  {
+    "title": "Supply Chain",
+    "url": "/supply-chain/",
+    "children": [
+      { "title": "Strategic Assessment", "url": "/supply-chain/" },
+      { "title": "Production & Ordering", "url": "/supply-chain/production/" },
+      { "title": "Case Studies", "url": "/supply-chain/case-studies/" }
+    ]
+  },
+  {
+    "title": "Logistics",
+    "url": "/logistics/",
+    "children": [
+      { "title": "Strategic Assessment", "url": "/logistics/" },
+      { "title": "Case Studies", "url": "/logistics/case-studies/" }
+    ]
+  },
+  {
+    "title": "Resource Management",
+    "url": "/resource-management/",
+    "children": [
+      { "title": "Strategic Assessment", "url": "/resource-management/" },
+      { "title": "Case Studies", "url": "/resource-management/case-studies/" }
+    ]
+  },
+  {
+    "title": "Innovation Partners",
+    "url": "/innovation-partners/",
+    "children": []
+  }
+]

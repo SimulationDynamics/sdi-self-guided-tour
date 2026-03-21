@@ -1,0 +1,13 @@
+[
+  { "title": "Home", "url": "/" },
+  { "title": "Manufacturing: Strategic Assessment", "url": "/manufacturing/" },
+  { "title": "Manufacturing: Case Studies", "url": "/manufacturing/case-studies/" },
+  { "title": "Supply Chain: Strategic Assessment", "url": "/supply-chain/" },
+  { "title": "Supply Chain: Production & Ordering", "url": "/supply-chain/production/" },
+  { "title": "Supply Chain: Case Studies", "url": "/supply-chain/case-studies/" },
+  { "title": "Logistics: Strategic Assessment", "url": "/logistics/" },
+  { "title": "Logistics: Case Studies", "url": "/logistics/case-studies/" },
+  { "title": "Resource Management: Strategic Assessment", "url": "/resource-management/" },
+  { "title": "Resource Management: Case Studies", "url": "/resource-management/case-studies/" },
+  { "title": "Innovation Partners", "url": "/innovation-partners/" }
+]
