@@ -136,7 +136,7 @@ Other plants may not normally be preferred because production or shipping costs 
 
 ##### Summary
 
-**Proven Methodology:** SDI has conducted extensive independent research on flexible ordering benefits, detailed in our paper: *[Safety Stock Savings from Flexible Order Contracts: A Simulation Study](https://chiaha.ai/wp-content/uploads/2025/07/Safety-Stock-Savings-from-Flex-Ordering-A-Simulation-Study.pdf)*
+**Proven Methodology:** SDI has conducted extensive independent research on flexible ordering benefits, detailed in our paper: *[Safety Stock Savings from Flexible Order Contracts: A Simulation Study](https://chiaha.com/wp-content/uploads/2025/07/Safety-Stock-Savings-from-Flex-Ordering-A-Simulation-Study.pdf)*
 
 Our benchmark studies demonstrate that flexible ordering can achieve up to 77% of maximum potential safety stock savings through strategic contract design, with savings highly sensitive to flexibility in early contract periods.
 

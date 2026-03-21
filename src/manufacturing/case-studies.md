@@ -189,7 +189,7 @@ This innovation exemplifies SDI's approach to creating practical solutions that 
 
 ### Current Availability
 
-Now offered through [ChiAha.ai](https://AdaptiveCoaching.ai) as OT/edge applications running on plant floor networks with PLC connections and HMI interfaces, expanding beyond jetzone ovens to other industrial applications.
+Now offered through [ChiAha.com](https://AdaptiveCoaching.ai) as OT/edge applications running on plant floor networks with PLC connections and HMI interfaces, expanding beyond jetzone ovens to other industrial applications.
 
 ### Strategic Assessment
 
