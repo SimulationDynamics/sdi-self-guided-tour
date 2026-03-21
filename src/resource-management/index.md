@@ -34,7 +34,7 @@ Some products have a relatively short life cycle. Although the duration of the p
 
 ### Case Studies
 
-- [Life Cycle Resource Management Model](/manufacturing/case-studies/#life-cycle-resource-management)
+- [Life Cycle Resource Management Model](/supply-chain/case-studies/#life-cycle-resource-management)
 
   The primary purpose of this model is to study the consequences of a mismatch between capacity and life cycle peak demand. The only strategy available to cope with periods of capacity under demand was pre-building.
 
