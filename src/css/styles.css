@@ -210,7 +210,7 @@ a:hover {
 
 /* --- Prose Styling (rendered markdown) --- */
 .prose img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   border-radius: 0.5rem;
   margin: 1em 0;
