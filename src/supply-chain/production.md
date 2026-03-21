@@ -5,16 +5,22 @@ description: Production run length, production capacity, and flexible ordering s
 showGrid: true
 ---
 
+# Strategic Assessment: Supply Chain — Production & Ordering
+
+The following strategic topics continue the supply chain assessment:
+
 <div class="section-nav">
+<h4>Strategic Topics</h4>
 
-- [Supply chain structure](/supply-chain/#supply-chain-structure)
-- [Safety Stock Design](/supply-chain/#safety-stock-design)
-- [Inventory Deployment](/supply-chain/#inventory-deployment)
-- [Postponement](/supply-chain/#postponement)
-- [Production run length](#production-run-length)
-- [Production Capacity](#production-capacity)
-- [Flexible ordering](#flexible-ordering)
-
+<ul>
+<li class="strategic"><a href="/supply-chain/#supply-chain-structure">Supply chain structure</a></li>
+<li class="strategic"><a href="/supply-chain/#safety-stock-design">Safety Stock Design</a></li>
+<li class="strategic"><a href="/supply-chain/#inventory-deployment">Inventory Deployment</a></li>
+<li class="strategic"><a href="/supply-chain/#postponement">Postponement</a></li>
+<li class="strategic"><a href="#production-run-length">Production run length</a><div class="description">impact on cycle stock, aging, customer service</div></li>
+<li class="strategic"><a href="#production-capacity">Production Capacity</a><div class="description">strategies for dealing with periods of demand over capacity</div></li>
+<li class="strategic"><a href="#flexible-ordering">Flexible ordering</a><div class="description">impact on inventory levels, customer service</div></li>
+</ul>
 </div>
 
 <h2 id="production-run-length">Production run length</h2>

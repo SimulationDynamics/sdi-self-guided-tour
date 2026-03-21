@@ -5,24 +5,23 @@ description: Strategic assessment of supply chain simulation — structure, safe
 showGrid: true
 ---
 
-### Strategic Assessment: Supply Chain
+# Strategic Assessment: Supply Chain
 
 Here are the primary problem areas SDI has assessed:
 
-- [Supply chain structure](#supply-chain-structure)
-  impact on carrying cost, aging, logistics costs, and customer service
-- [Safety Stock Design](#safety-stock-design)
-  safety stock sizing, cycle stock impact, and customer service consideration
-- [Inventory Deployment](#inventory-deployment)
-  impact on inventory levels, aging, customer service, redeployment
-- [Postponement](#postponement)
-  impact on inventory levels, aging, customer service, redeployment
-- [Production run length](/supply-chain/production/#production-run-length)
-  impact on cycle stock, aging, customer service
-- [Production Capacity](/supply-chain/production/#production-capacity)
-  strategies for dealing with periods of demand over capacity
-- [Flexible Ordering](/supply-chain/production/#flexible-ordering)
-  impact on inventory levels, customer service
+<div class="section-nav">
+<h4>Strategic Topics</h4>
+
+<ul>
+<li class="strategic"><a href="#supply-chain-structure">Supply chain structure</a><div class="description">impact on carrying cost, aging, logistics costs, and customer service</div></li>
+<li class="strategic"><a href="#safety-stock-design">Safety Stock Design</a><div class="description">safety stock sizing, cycle stock impact, and customer service consideration</div></li>
+<li class="strategic"><a href="#inventory-deployment">Inventory Deployment</a><div class="description">impact on inventory levels, aging, customer service, redeployment</div></li>
+<li class="strategic"><a href="#postponement">Postponement</a><div class="description">impact on inventory levels, aging, customer service, redeployment</div></li>
+<li class="strategic"><a href="/supply-chain/production/#production-run-length">Production run length</a><div class="description">impact on cycle stock, aging, customer service</div></li>
+<li class="strategic"><a href="/supply-chain/production/#production-capacity">Production Capacity</a><div class="description">strategies for dealing with periods of demand over capacity</div></li>
+<li class="strategic"><a href="/supply-chain/production/#flexible-ordering">Flexible Ordering</a><div class="description">impact on inventory levels, customer service</div></li>
+</ul>
+</div>
 
 <img src="/images/Strategic Assessment - Supply Chain.png" alt="Strategic Assessment - Supply Chain" />
 

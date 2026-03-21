@@ -19,6 +19,8 @@ The following are among the primary problem areas SDI has assessed in manufactur
 </ul>
 </div>
 
+<img src="/images/Strategic Assessment - Manufacturing.png" alt="Strategic Assessment - Manufacturing" />
+
 ---
 
 <h2 id="buffer-size-vs-process-variability">Buffer size vs. process variability</h2>
