@@ -5,18 +5,6 @@ description: Strategic assessment of supply chain simulation — structure, safe
 showGrid: true
 ---
 
-<div class="section-nav">
-
-- [Supply chain structure](#supply-chain-structure)
-- [Safety Stock Design](#safety-stock-design)
-- [Inventory Deployment](#inventory-deployment)
-- [Postponement](#postponement)
-- [Production run length](/supply-chain/production/#production-run-length)
-- [Production Capacity](/supply-chain/production/#production-capacity)
-- [Flexible ordering](/supply-chain/production/#flexible-ordering)
-
-</div>
-
 ### Strategic Assessment: Supply Chain
 
 Here are the primary problem areas SDI has assessed:
