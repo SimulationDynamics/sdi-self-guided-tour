@@ -115,7 +115,7 @@ Other plants may not normally be preferred because production or shipping costs 
 
    Demand shaping broadly entails efforts to match demand with productive capacity. Demand management techniques include customer incentives, reseller incentives, and sales compensation.
 
-   For a concise summary of current practices, see [Best Practices in Demand Shaping](http://www.oracle.com/global/kr/download/seminar/2007/mrd/mrd_session2-1.pdf.) by Oracle.
+   For a concise summary of current practices, see *Best Practices in Demand Shaping* by Oracle.
 
    Simulation provides an effective tool for assessing combinations of production and demand scenarios.
 
