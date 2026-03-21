@@ -22,7 +22,7 @@ The following case studies illustrate SDI's supply chain simulation work:
 
 <img src="/images/CaseStudiesAllSupplyChain.png" alt="Case Studies: Supply Chain" />
 
-------
+---
 
 <h2 id="downstream-packaging-model">Downstream Packaging Model</h2>
 
@@ -84,7 +84,7 @@ The following list provides links to articles within this document that address 
 
   A relatively minor issue in this case study was the question of where to deploy cycle stock of the bulk material shipped downstream for packaging. We concluded that it was most cost effective to keep all cycle stock upstream at the plants and fill orders from distribution centers on a pull order basis.
 
-------
+---
 
 <h2 id="inventory-deployment-model">Inventory Deployment Model</h2>
 
@@ -168,7 +168,7 @@ The following list provides links to articles within this document that address 
 
   In this model the first line of defense against plant capacity falling short of demand was transferring demand to another less efficient plant. If capacity system wide was under demand, prebuilds were scheduled.
 
-------
+---
 
 <h2 id="general-mills">Revolutionary Supply Chain Understanding - General Mills</h2>
 
@@ -221,7 +221,7 @@ The following list provides links to articles within this document that address 
 - [Production Capacity](/supply-chain/production/#production-capacity)
   Managing demand variability and capacity constraints with 15-minute scenario analysis capability.
 
-------
+---
 
 <h2 id="life-cycle-resource-management">Life Cycle Resource Management Model</h2>
 

@@ -58,9 +58,9 @@ Nuclear weapons requiring rehab are forecasted as an input to the model. Compone
 - Resource Utilization
 - Inventory levels
 
-### Key model issues
+### Key Model Issues
 
-<img src="/images/CaseDOE_EquipmentRehabKeyIssues.png" alt="DOE Equipment Rehab Key model issues">
+<img src="/images/CaseDOE_EquipmentRehabKeyIssues.png" alt="DOE Equipment Rehab Key Model Issues">
 
 ### Model Database
 

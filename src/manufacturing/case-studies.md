@@ -20,7 +20,7 @@ The following case studies illustrate SDI's manufacturing simulation work:
 
 <img src="/images/CaseStudiesAllMfg.png" alt="Case Studies: Manufacturing" />
 
-------
+---
 
 <h2 id="chemical-packaging-model">Chemical Packaging Model</h2>
 
