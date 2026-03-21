@@ -134,7 +134,7 @@ The following provides links to articles within this document that address strat
 
 #### Background
 
-Extracted from: *[T.Loads Abbreviated Systems Architecture](http://www.informs-sim.org/wsc01papers/098.PDF)*; Bob Hamber 2001
+Extracted from: *[T.Loads Abbreviated Systems Architecture](http://www.informs-sim.org/wsc01papers/098.PDF)*; [Bob Hamber](https://www.linkedin.com/in/bobhamber/) 2001
 
 The Tactical Logistics Distribution System (T.LoaDS or TLoaDS) is a powerful and flexible simulation application for assessing current or future tactical or sea-based distribution systems. In its current state of development, it is an analytical model for assessing the pros and cons of new doctrine, distribution techniques, organizational structures, and equipment concepts. It can also be used to find out how to best use available resources to sustain a military force in a wide variety of scenarios. The "System" in TLoaDS refers to its modular architecture and that it is more that just a simulation. It is a suite of analytical study tools.
 
