@@ -10,6 +10,7 @@ An example of SDI's work in logistics is:
 
 <div class="section-nav">
 <h4>Strategic Topics</h4>
+
 <ul>
 <li class="strategic"><a href="#tactical-analysis">Tactical analysis of system loading</a><div class="description">short term simulation of system behavior to support resource scheduling</div></li>
 </ul>
@@ -20,6 +21,7 @@ An example of SDI's work in logistics is:
 ---
 
 <h2 id="tactical-analysis">Logistics: Tactical analysis of system loading</h2>
+
 <div class="callout">short term simulation of system behavior to support resource scheduling</div>
 
 ### Summary

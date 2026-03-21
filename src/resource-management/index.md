@@ -10,6 +10,7 @@ The following are among the primary problem areas SDI has assessed in resource m
 
 <div class="section-nav">
 <h4>Strategic Topics</h4>
+
 <ul>
 <li class="strategic"><a href="#life-cycle-management">Life cycle management</a><div class="description">assessment of alternative levels of capital investment under a range of sales outcome scenarios</div></li>
 <li class="strategic"><a href="#long-term-resource-requirements">Long term resource requirements</a><div class="description">assessment of long term resource requirements, operating costs, periods of capacity shortfalls, and critical bottlenecks</div></li>
@@ -22,6 +23,7 @@ The following are among the primary problem areas SDI has assessed in resource m
 ---
 
 <h2 id="life-cycle-management">Resource Management: Life cycle management</h2>
+
 <div class="callout">assessment of alternative levels of capital investment under a range of sales outcome scenarios</div>
 
 ### Summary
@@ -39,6 +41,7 @@ Some products have a relatively short life cycle. Although the duration of the p
 ---
 
 <h2 id="long-term-resource-requirements">Resource Management: Long Term Resource Requirements</h2>
+
 <div class="callout">assessment of long term resource requirements, operating costs, periods of capacity shortfalls, and critical bottlenecks</div>
 
 ### Summary
@@ -59,6 +62,7 @@ SDI's simulation tools have proven effective in assessing long term resource req
 ---
 
 <h2 id="network-capacity">Resource Management: Network Capacity</h2>
+
 <div class="callout">assessment of the capacity of networks to carry specified flows, given one or more resource scenario</div>
 
 ### Summary

@@ -12,6 +12,7 @@ showGrid: true
 ------
 
 <h2 id="downstream-packaging-model">Downstream Packaging Model</h2>
+
 ### Background
 
 Simulation Dynamics built a simulation model for a U.S. manufacturer of consumer goods to support assessment of alternative inventory deployment and postponement options.
@@ -72,6 +73,7 @@ The following list provides links to articles within this document that address 
 ------
 
 <h2 id="inventory-deployment-model">Inventory Deployment Model</h2>
+
 ### Background
 
 Simulation Dynamics built a simulation model for a U.S. manufacturer of consumer goods to support assessment of alternative inventory deployment options.
@@ -145,6 +147,7 @@ The following list provides links to articles within this document that address 
 ------
 
 <h2 id="general-mills">Revolutionary Supply Chain Understanding - General Mills</h2>
+
 ### Background
 
 A major food manufacturer realized their conventional snapshot-based analysis methods were inadequate for understanding complex supply chain dynamics. They needed to see how their system actually behaved over time, not just at single points.
@@ -197,6 +200,7 @@ The following list provides links to articles within this document that address 
 ------
 
 <h2 id="life-cycle-resource-management">Life Cycle Resource Management Model</h2>
+
 ### Summary
 
 #### Background

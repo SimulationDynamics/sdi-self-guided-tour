@@ -13,6 +13,7 @@ showGrid: true
 ---
 
 <h2 id="doe-equipment-rehab">DOE Equipment Rehab Model</h2>
+
 ### Summary
 
 #### Background
@@ -63,6 +64,7 @@ Nuclear weapons requiring rehab are forecasted as an input to the model. Compone
 ---
 
 <h2 id="tru-waste-system">TRU Waste System Model</h2>
+
 ### Summary
 
 In response to the accelerated cleanup goals of the Department of Energy, Sandia National Laboratory (Sandia) has developed and utilized a number of simulation models to represent the processing, transportation, and disposal of radioactive waste. Sandia, in conjunction with Simulation Dynamics, has developed a supply chain model of the cradle to grave management of radioactive waste. Sandia has used this model to assist the Department of Energy in developing a cost effective, regulatory compliant and efficient approach to dispose of waste from 25 sites across the country over the next 35 years.
@@ -82,6 +84,7 @@ The following provides links to articles within this document that address strat
 ---
 
 <h2 id="dynamic-ground-segment">Dynamic Ground Segment Model</h2>
+
 ### Summary
 
 The DYNAMIC GROUND SEGMENT MODEL (DGSM) is a custom Extend model serving as a validation tool to establish that a planned Delta IV 20 year launch would meet minimum contract performance standards of 80% of launches within acceptable limits, including periodic unscheduled launches.
@@ -108,6 +111,7 @@ The following provides links to articles within this document that address strat
 ---
 
 <h2 id="kbr-services">KBR Services Model</h2>
+
 ### Summary
 
 Simulation Dynamics developed two tools to assist Brown and Root in preparing estimates for service contracts. A services contract simulation was developed to predict the level of service responsiveness and resource utilization that results from tasks required under the contract.
@@ -130,6 +134,7 @@ The following provides links to articles within this document that address strat
 ---
 
 <h2 id="communications-network">Communications Network Model</h2>
+
 ### Summary
 
 Simulation Dynamics has developed a network simulation used to dynamically model calls made from and through a network of nodes. The system consists of graphical building blocks and a model template. This system has been applied in a model used to study the feasibility of a business venture involving a new kind of cellular phone system. The model, pictured below, simulates the transmission of calls from any wireless "source" node through a network of other nodes, and to designated exit points, or POPs (Points of Presence). A POP is indicated in the model layout as a double circle. In this system, any node can place a call. The destination for a call is the nearest POP. POPs are connected to the wired network, which is outside this model's scope. To reach a POP, a call must be routed through other nodes via links from node to node. The purpose of the model is to understand the relationship among call patterns, network layout, channels and blocking rate.
@@ -158,6 +163,7 @@ The following provides links to articles within this document that address strat
 ---
 
 <h2 id="project-task-network">Project Task Network Model</h2>
+
 ### Summary
 
 Project networks describe the interrelated tasks that make up a project. The purpose of representing tasks as a network is to clarify the precedence relationships among tasks, and allow for critical path analysis which determines early and late start and finish times for each task.

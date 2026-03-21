@@ -11,6 +11,7 @@ The following are among the primary problem areas SDI has assessed in manufactur
 
 <div class="section-nav">
 <h4>Strategic Topics</h4>
+
 <ul>
 <li class="strategic"><a href="#buffer-size-vs-process-variability">Buffer size vs process variability</a><div class="description">process blocking & starving vs. cost of increased buffer size</div></li>
 <li class="strategic"><a href="#capacity-analysis">Capacity analysis</a><div class="description">ability of current or anticipated capacity to handle projected product mix</div></li>
@@ -21,6 +22,7 @@ The following are among the primary problem areas SDI has assessed in manufactur
 ---
 
 <h2 id="buffer-size-vs-process-variability">Buffer size vs. process variability</h2>
+
 <div class="callout">process blocking & starving vs. cost of increased buffer size</div>
 
 ### Summary
@@ -50,6 +52,7 @@ Through our practice, we were able to codify, explain, and experiment with the c
 ---
 
 <h2 id="capacity-analysis">Capacity Analysis</h2>
+
 <div class="callout">ability of current or anticipated capacity to handle projected product mix</div>
 
 ### Summary
@@ -91,6 +94,7 @@ These results demonstrate how simulation reveals capacity opportunities that tra
 ---
 
 <h2 id="operational-strategies">Operational Strategies</h2>
+
 <div class="callout">impact of new operational strategies on throughput and resource utilization</div>
 
 ### Case Study: Coffee Manufacturing Scheduling Transformation

@@ -11,6 +11,7 @@ showGrid: true
 ---
 
 <h2 id="vinlogic-model">VINLogic Model</h2>
+
 <div class="callout">transport of Vehicles from Plants to Dealers</div>
 
 ### Summary
@@ -112,6 +113,7 @@ The following provides links to articles within this document that address strat
 ---
 
 <h2 id="tloads-model">TLoaDS Model</h2>
+
 <div class="callout">Re-supply of Marine units from supply ships</div>
 
 ### Summary

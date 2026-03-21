@@ -14,6 +14,7 @@ showGrid: true
 ------
 
 <h2 id="chemical-packaging-model">Chemical Packaging Model</h2>
+
 ### Background
 
 Simulation Dynamics built a model to help a chemical manufacturer assess alternative bagging line configurations. In addition to initial experimentation done by SDI, the manufacturer has used the model on an ongoing basis for schedule and production assessments.
@@ -75,6 +76,7 @@ The following list provides links to articles within this document that address 
 ---
 
 <h2 id="food-processing-capacity-optimization">Food Processing Capacity Optimization</h2>
+
 ### Background
 
 An olive processing company needed to understand its true production capacity. The facility was large and complex, with unclear bottlenecks and scheduling challenges that were limiting throughput.
@@ -134,6 +136,7 @@ The following list provides links to articles within this document that address 
 ---
 
 <h2 id="real-time-process-coaching">Real-Time Process Coaching - AdaptiveCoaching.ai</h2>
+
 <div class="callout">Real-time operator decision support for industrial food processing</div>
 
 ### Background

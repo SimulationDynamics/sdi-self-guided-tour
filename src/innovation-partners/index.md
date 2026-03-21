@@ -6,6 +6,7 @@ showGrid: true
 ---
 
 <h2 id="automated-warehouse">Automated Warehouse System Design</h2>
+
 ### Background
 
 Symbotic needed to optimize their next-generation automated warehouse design for maximum productivity and efficiency in multimodal robotic warehousing operations.
@@ -70,6 +71,7 @@ The following list provides links to articles within this document that address 
 ---
 
 <h2 id="process-partners">Process Partners Innovation Collaboration</h2>
+
 ### Background
 
 SDI strategically partners with [Process Partners](https://process-partners.com/our-team.html) and [Jim Breslin](https://www.linkedin.com/in/james-breslin-ab91007/) to develop breakthrough manufacturing technologies that neither organization could create alone.

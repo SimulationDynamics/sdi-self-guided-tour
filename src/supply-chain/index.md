@@ -41,6 +41,7 @@ Here are the primary problem areas SDI has assessed:
 ------
 
 <h2 id="supply-chain-structure">Supply Chain Structure</h2>
+
 <div class="callout">impact on carrying cost, aging, logistics costs, and customer service</div>
 
 ##### Summary
@@ -81,6 +82,7 @@ REGIONAL DISTRIBUTION CENTER: Supports rapid customer order filling, more freque
 ------
 
 <h2 id="safety-stock-design">Safety Stock Design</h2>
+
 <div class="callout">safety stock sizing, cycle stock impact, and customer service consideration</div>
 
 ##### Summary
@@ -196,6 +198,7 @@ Several factors can require that the basic safety stock equation be modified, or
 ------
 
 <h2 id="inventory-deployment">Inventory Deployment</h2>
+
 <div class="callout">impact on inventory levels, aging, customer service, redeployment</div>
 
 ##### Summary
@@ -224,6 +227,7 @@ In many industries, economies of scale dictate that production runs far exceed i
 ------
 
 <h2 id="postponement">Postponement</h2>
+
 <div class="callout">moving production operations downstream, closer to the customer in space and time.</div>
 
 ##### Summary

@@ -18,6 +18,7 @@ showGrid: true
 </div>
 
 <h2 id="production-run-length">Production run length</h2>
+
 <div class="callout">impact on cycle stock, aging, customer service</div>
 
 ##### Summary
@@ -86,6 +87,7 @@ The impact of varying production run lengths was assed on changeover costs, inve
 ------
 
 <h2 id="production-capacity">Production Capacity</h2>
+
 <div class="callout">strategies for dealing with periods of demand over capacity</div>
 
 ##### Summary
@@ -124,6 +126,7 @@ Other plants may not normally be preferred because production or shipping costs 
 ------
 
 <h2 id="flexible-ordering">Flexible ordering</h2>
+
 <div class="callout">impact on inventory levels, customer service</div>
 
 ##### Summary
