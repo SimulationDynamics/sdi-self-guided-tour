@@ -21,6 +21,31 @@
   --dot-cases: #4CD964;
 }
 
+/* --- Proxima Nova Fonts --- */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/ProximaNova-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* --- Reset & Base --- */
 *,
 *::before,
@@ -37,7 +62,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Proxima Nova', system-ui, -apple-system, sans-serif;
   color: var(--sdi-text);
   background: var(--sdi-bg);
   line-height: 1.7;
@@ -48,7 +73,7 @@ body {
 
 /* --- Typography --- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Proxima Nova', system-ui, -apple-system, sans-serif;
   font-weight: 700;
   color: var(--sdi-dark);
   line-height: 1.3;
