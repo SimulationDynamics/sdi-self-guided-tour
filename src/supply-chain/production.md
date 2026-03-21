@@ -48,6 +48,7 @@ The challenge of sizing production run lengths grows out of three factors:
 ##### EOQ is misleading
 
 Production runs have fixed costs which are amortized over the number of units produced in a run. The cost per unit of fixed costs goes down as the number of units in a run goes up. Counteracting the economy of scale are the costs that result from longer runs. The most quantifiable costs resulting from long runs are inventory carrying costs. Longer runs will result in higher average inventories as long as the rate of consumption is less that the rate of production. So far, the question of the most economic run length is framed as a traditional supply chain *economic order quantity* (EOQ) problem. EOQ problems are solved by equations that capture the relationships shown in the graph below. A minimum overall cost is found at the low point of the total cost curve. EOQ analysis can be misleading since the consequences of forecast error and supply chain misallocation are not considered.
+
 <img src="/images/ScRunLengthEOQisMisleading.png" alt="image-20250703170748421" />
 
 ##### Supply chain impact
@@ -82,7 +83,9 @@ It is common for the systems where run length is of greatest concern to also be 
 
 Company X has four plants producing 14 brands on five mixing systems. These systems feed packaging lines that produce 18 SKU's. Customers are supplied from seven company owned DC's; a few customers are supplied directly from the plants. Each DC is assigned to a primary plant. During times of demand over capacity, plants can shift demand to other plants that make the same product. When demand is over capacity system wide, product is pre-built to meet the anticipated excess demand.
 
-The impact of varying production run lengths was assed on changeover costs, inventory costs and customer service. The findings of this study can be found in *[Impact of Run Length on Supply Chain Performance](http://www.informs-sim.org/wsc04papers/148.pdf)*. The following is a sample chart from the paper:<img src="/images/ScRunLengthAnalysis.png" alt="Run Length Analysis" />
+The impact of varying production run lengths was assed on changeover costs, inventory costs and customer service. The findings of this study can be found in *[Impact of Run Length on Supply Chain Performance](http://www.informs-sim.org/wsc04papers/148.pdf)*. The following is a sample chart from the paper:
+
+<img src="/images/ScRunLengthAnalysis.png" alt="Run Length Analysis" />
 
 ------
 
@@ -112,7 +115,9 @@ Other plants may not normally be preferred because production or shipping costs 
 
 2. Overtime
    The first recourse in dealing with periods of demand over capacity is to add production shifts, requiring overtime. Simulation allows assessment of the trade-off between increasing capacity and reducing the need for overtime.
-   <img src="/images/ScProductionCapacityOvertime.png" alt="Capacity versus overtime" />
+   
+
+<img src="/images/ScProductionCapacityOvertime.png" alt="Capacity versus overtime" />
 
 ##### Case Studies
 

@@ -23,6 +23,7 @@ The National Nuclear Security Administration (NNSA) Y-12 National Security Compl
 #### Model Purpose
 
 SDI developed a general purpose simulation model which allows Y-12 wide latitude in describing specific production scenarios through entries in database tables.
+
 <img src="/images/CaseDOE_EquipmentRehab.png" alt="DOE Equipment Rehab Model">
 
 #### Key model inputs
@@ -68,6 +69,7 @@ Nuclear weapons requiring rehab are forecasted as an input to the model. Compone
 ### Summary
 
 In response to the accelerated cleanup goals of the Department of Energy, Sandia National Laboratory (Sandia) has developed and utilized a number of simulation models to represent the processing, transportation, and disposal of radioactive waste. Sandia, in conjunction with Simulation Dynamics, has developed a supply chain model of the cradle to grave management of radioactive waste. Sandia has used this model to assist the Department of Energy in developing a cost effective, regulatory compliant and efficient approach to dispose of waste from 25 sites across the country over the next 35 years.
+
 <img src="/images/CaseTRU_WasteSystemMap.png" alt="TRU Waste System Model Map">
 
 ### Paper

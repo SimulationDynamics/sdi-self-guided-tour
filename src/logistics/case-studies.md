@@ -42,6 +42,7 @@ The VinLogic model was developed by Simulation Dynamics for Insight Network Logi
 #### Key model inputs
 
 To make tactical analysis possible, the VINLogic model is connected on a real time basis to INL's VINVision system which tracks all vehicles in the network and the trucks and railcars that are carrying them.
+
 <img src="/images/CaseVINLogicImportingVehicles.png">
 
 The model is initialized with this data, allowing simulation of network behavior in the near term.
@@ -50,7 +51,9 @@ The model is initialized with this data, allowing simulation of network behavior
 
 - Resource levels (e.g. at loading ramps), rail facility interruptions, forecasted production rates
 - Standard and alternate routes; user editable
-  <img src="/images/CaseVINLogicRouteBuilder.png">
+  
+
+<img src="/images/CaseVINLogicRouteBuilder.png">
 
 #### System Performance Measures
 
@@ -123,6 +126,7 @@ The following provides links to articles within this document that address strat
 Extracted from: *[T.Loads Abbreviated Systems Architecture](http://www.informs-sim.org/wsc01papers/098.PDF)*; Bob Hamber 2001
 
 The Tactical Logistics Distribution System (T.LoaDS or TLoaDS) is a powerful and flexible simulation application for assessing current or future tactical or sea-based distribution systems. In its current state of development, it is an analytical model for assessing the pros and cons of new doctrine, distribution techniques, organizational structures, and equipment concepts. It can also be used to find out how to best use available resources to sustain a military force in a wide variety of scenarios. The "System" in TLoaDS refers to its modular architecture and that it is more that just a simulation. It is a suite of analytical study tools.
+
 <img src="/images/CaseTLoaDS_Diagram.png" alt="TLoaDS Model Diagram">      <img src="/images/CaseTLoaDS_MapView.png" alt="TLoaDS Map View">
 
 #### Model Purpose

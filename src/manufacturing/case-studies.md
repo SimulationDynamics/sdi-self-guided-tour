@@ -32,16 +32,22 @@ Simulation Dynamics built a model to help a chemical manufacturer assess alterna
 
 - Alternative demand scenarios; e.g.,
 
-  <img src="/images/MfgDemandGreaterThanCapacity.png" alt="Demand Over Capacity" />
+  
+
+<img src="/images/MfgDemandGreaterThanCapacity.png" alt="Demand Over Capacity" />
 
 - Alternative scheduling parameters
 
 - Alternative bagging line configurations. In the current setup, bag lines are tied to bulk manufacturing lines:
 
-  <img src="/images/CaseChemMfgExistingConfig.png" alt="Case Study - Chemical Manufacturing Model" />
+  
+
+<img src="/images/CaseChemMfgExistingConfig.png" alt="Case Study - Chemical Manufacturing Model" />
 
   The "To-Be" configuration decoupled this tie, by introducing some short-term storage:
-  <img src="/images/CaseChemMfgToBeConfig.png" alt="Case Study - Chemical Manufacturing" />
+  
+
+<img src="/images/CaseChemMfgToBeConfig.png" alt="Case Study - Chemical Manufacturing" />
 
   *Critical Measurement*: Overtime required under each bagging line scenario.
 
@@ -54,6 +60,7 @@ Simulation Dynamics built a model to help a chemical manufacturer assess alterna
 ### Plot of Bag Line Activity
 
 Average weekly hours (production, repair, changeover, idle, overtime for a 10-year experiment horizon):
+
 <img src="/images/CaseChemMfgPlotOfBaglines.png" alt="Case Study - Chem Mfg Plot of Bagline Activity" />
 
 ### Project Results

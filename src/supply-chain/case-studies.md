@@ -41,6 +41,7 @@ To assess the pros and cons of moving selected packaging operations downstream t
 ### Key Model Issues
 
 Production cycles of the bulk material at plants may be produced on cycles of 7, 14, 28 or as much as 91 days. When this product is packed at the plant, the result is substantial cycle stock of finished goods. Production runs are immediately allocated to packaging runs of finished items.
+
 <img src="/images/CaseDownstreamPackagingModel.png" alt="Downstream Packaging Model Scenarios" />
 
 In the downstream packaging scenarios, bulk material is still produced on cycles of 7, 14, 28 or as much as 91 days. Each week, finished goods are packaged based on forecasted demand for the next week at that location. Production runs are held at plants until quantities are pulled to distribution centers for packaging. This approach virtually eliminates cycle stock of finished goods. In exchange, there are inventories of bulk material at each distribution center.
@@ -119,15 +120,25 @@ Production cycles of the bulk material at plants may be 7, 14, 28 or as much as 
 Simulation results can be plotted at any level of plant or product aggregation:
 
 - All Plants All Products
-  <img src="/images/CaseInventoryDeploymentAllPlantsAllProds.png" alt="All Plants All Products" />
+  
+
+<img src="/images/CaseInventoryDeploymentAllPlantsAllProds.png" alt="All Plants All Products" />
 - 1 Plant All Products
-  <img src="/images/CaseInventoryDeployment1PlantAllProds.png" alt="1 Plant All Products" />
+  
+
+<img src="/images/CaseInventoryDeployment1PlantAllProds.png" alt="1 Plant All Products" />
 - 1 Plant 1 Category
-  <img src="/images/CaseInventoryDeployment1Plant1Category.png" alt="1 Plant 1 Category" />
+  
+
+<img src="/images/CaseInventoryDeployment1Plant1Category.png" alt="1 Plant 1 Category" />
 - 1 Plant 1 Brand
-  <img src="/images/CaseInventoryDeployment1Plant1Brand.png" alt="1 Plant 1 Brand" />
+  
+
+<img src="/images/CaseInventoryDeployment1Plant1Brand.png" alt="1 Plant 1 Brand" />
 - 1 Plant 1 Finished Product
-  <img src="/images/CaseInventoryDeployment1Plant1FinishedProd.png" alt="1 Plant 1 Finished Product" />
+  
+
+<img src="/images/CaseInventoryDeployment1Plant1FinishedProd.png" alt="1 Plant 1 Finished Product" />
 
 ### Strategic Assessment
 
@@ -206,6 +217,7 @@ The following list provides links to articles within this document that address 
 #### Background
 
 In collaboration with a manufacturer of electronics gear, SDI developed a simulation model to assess problems inherent in production of key components overseas.
+
 <img src="/images/CaseLifeCycleResourceManagement.png" alt="Case Study: Life Cycle Resource Management Model" />
 
 There is an allowance of 30 days for loading, transit and unloading, including customs.
