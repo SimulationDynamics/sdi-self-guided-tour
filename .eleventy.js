@@ -21,6 +21,17 @@ module.exports = function(eleventyConfig) {
     return items.find(item => item.url === url);
   });
 
+  // Open all external links in a new tab
+  eleventyConfig.addTransform("externalLinks", function(content) {
+    if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
+      content = content.replace(
+        /<a\s+href="(https?:\/\/[^"]+)"(?![^>]*target=)/g,
+        '<a href="$1" target="_blank" rel="noopener"'
+      );
+    }
+    return content;
+  });
+
   return {
     dir: {
       input: "src",
