@@ -186,7 +186,7 @@ The real breakthrough came during model building itself. As one executive noted,
 
 ### Industry Recognition
 
-**Featured in [IIE Magazine](https://www.iise.org/ISEMagazine/Issue.aspx) (June 2001 IIE Solutions)** highlighting the transformation from "snapshot" to "video" analysis capabilities:
+**Featured in [IIE Magazine](https://simulationdynamics.com/wp-content/uploads/2026/03/SCB-IIE-Article-and-Ad.pdf) (June 2001 IIE Solutions)** highlighting the transformation from "snapshot" to "video" analysis capabilities:
 
 *If a picture is worth a thousand words, then the simulation of a complex supply chain must be worth a million. That's one of the conclusions General Mills drew after the company enhanced its conventional methods of analyzing supply chain cost savings with a simulation-based process offered through Simulation Dynamics.*
 
