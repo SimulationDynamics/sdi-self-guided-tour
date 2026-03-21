@@ -92,7 +92,7 @@ p {
 }
 
 a {
-  color: var(--sdi-dark);
+  color: #2A7A85;
   text-decoration: none;
   transition: color 0.2s;
 }
