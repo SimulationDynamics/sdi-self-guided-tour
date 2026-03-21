@@ -92,13 +92,13 @@ p {
 }
 
 a {
-  color: var(--sdi-teal);
+  color: var(--sdi-dark);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 a:hover {
-  color: var(--sdi-dark);
+  color: var(--sdi-teal);
   text-decoration: underline;
 }
 
