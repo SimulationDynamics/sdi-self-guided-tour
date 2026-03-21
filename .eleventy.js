@@ -1,4 +1,9 @@
+const { HtmlBasePlugin } = require("@11ty/eleventy");
+
 module.exports = function(eleventyConfig) {
+  // Automatically rewrite URLs to include pathPrefix
+  eleventyConfig.addPlugin(HtmlBasePlugin);
+
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");
@@ -24,6 +29,7 @@ module.exports = function(eleventyConfig) {
       data: "_data"
     },
     markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk"
+    htmlTemplateEngine: "njk",
+    pathPrefix: "/sdi-self-guided-tour/"
   };
 };
