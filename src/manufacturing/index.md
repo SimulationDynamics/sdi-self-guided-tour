@@ -109,6 +109,10 @@ This project showcased why SDI developed Discrete Rate Simulation in the first p
 
 **Results:** Successfully adapted plant operations to new production constraints and developed novel scheduling approaches.
 
+<div class="accent-examples">
+
 **Additional Examples:**
 - **Chemical Manufacturing:** SDI helped Rohm & Haas (Dow Chemical) evaluate alternative packaging line configurations and scheduling parameters, uncovering "additional options for low capital cost business growth, some of which were not readily apparent beforehand." *— Rick Dougherty, Senior Manufacturing Analyst*
 - **CPG Manufacturing:** Developed better scheduling strategies that were replicated across 12+ similar facilities throughout the region.
+
+</div>
