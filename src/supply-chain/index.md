@@ -154,7 +154,8 @@ Several factors can require that the basic safety stock equation be modified, or
    
 
 <img src="/images/ScStockDesignDeliveryDelays.png" alt="PDF for Delivery Delay Time" />
-   There are many potential causes of variation in delivery times. For this discussion, we assume causes of delay which can be characterized by a standard deviation. The critical factor in this analysis is not how late any individual shipment is, but rather, how many shipments might be late at any one time. For example, if the probability of 6 shipments being late is within the service performance goal of a node, then safety stock must be provided to cover this possibility.
+
+There are many potential causes of variation in delivery times. For this discussion, we assume causes of delay which can be characterized by a standard deviation. The critical factor in this analysis is not how late any individual shipment is, but rather, how many shipments might be late at any one time. For example, if the probability of 6 shipments being late is within the service performance goal of a node, then safety stock must be provided to cover this possibility.
 
    The critical factor in determining the number of shipments that might be late at any one time is the ratio of the delivery time standard deviation to the order cycle. For example if the standard deviation of the deliver time is 4 days, and orders are placed every two days, then the cycle standard deviation is 2 cycles. The average process duration is not relevant to this calculation. The same cycle standard deviation would result from a process duration standard deviation of 14 days and an order cycle of 7 days.
 
