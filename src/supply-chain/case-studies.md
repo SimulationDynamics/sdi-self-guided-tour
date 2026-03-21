@@ -132,24 +132,23 @@ Production cycles of the bulk material at plants may be 7, 14, 28 or as much as 
 
 Simulation results can be plotted at any level of plant or product aggregation:
 
-- All Plants All Products
-  
+**All Plants All Products**
 
 <img src="/images/CaseInventoryDeploymentAllPlantsAllProds.png" alt="All Plants All Products" />
-- 1 Plant All Products
-  
+
+**1 Plant All Products**
 
 <img src="/images/CaseInventoryDeployment1PlantAllProds.png" alt="1 Plant All Products" />
-- 1 Plant 1 Category
-  
+
+**1 Plant 1 Category**
 
 <img src="/images/CaseInventoryDeployment1Plant1Category.png" alt="1 Plant 1 Category" />
-- 1 Plant 1 Brand
-  
+
+**1 Plant 1 Brand**
 
 <img src="/images/CaseInventoryDeployment1Plant1Brand.png" alt="1 Plant 1 Brand" />
-- 1 Plant 1 Finished Product
-  
+
+**1 Plant 1 Finished Product**
 
 <img src="/images/CaseInventoryDeployment1Plant1FinishedProd.png" alt="1 Plant 1 Finished Product" />
 
