@@ -6,7 +6,7 @@ showGrid: true
 
 # Case Studies: Resource Management
 
-![Case Studies: Resource Management](/CaseStudiesAllResourceManagement.png)
+![Case Studies: Resource Management](/images/CaseStudiesAllResourceManagement.png)
 
 [Case Study: Life Cycle Resource Management Model](/manufacturing/case-studies/#life-cycle-resource-management) - use link
 
