@@ -84,7 +84,7 @@ In each of these areas, you can look at the strategic areas that our models have
 
 <div class="callout">Your simulation database is a production ontology — a structured encoding of your operational knowledge. It shouldn't be locked inside a proprietary tool.</div>
 
-SDI's founder originally designed the database system that powers ExtendSim's data-driven simulation models. That same architect has now rebuilt it — faster, portable, cloud-ready, and free from proprietary constraints.
+SDI's founder originally designed the database system that powers ExtendSim®'s data-driven simulation models. That same architect has now rebuilt it — faster, portable, cloud-ready, and free from proprietary constraints.
 
 **[Cloud DB Viewer](https://db.chiaha.com/)** — Upload any ExtendSim®-compatible database text file and explore it instantly in your browser. No license required. No software to install. Share it with your team via URL.
 
