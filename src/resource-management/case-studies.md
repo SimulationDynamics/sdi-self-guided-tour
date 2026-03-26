@@ -66,6 +66,8 @@ Nuclear weapons requiring rehab are forecasted as an input to the model. Compone
 
 <img src="/images/CaseDOE_EquipmentRehabDatabase.png" alt="IRPM System Diagram">
 
+<div class="callout">Database-driven models like this one encode decades of production knowledge — failure modes, repair distributions, process rates, shift schedules. This structured knowledge is now viewable and shareable through the <a href="https://db.chiaha.com/">Cloud DB platform</a>, free from proprietary tool dependencies.</div>
+
 ### Strategic Assessment
 
 - [Long Term resource management](/resource-management/#long-term-resource-requirements)
@@ -158,7 +160,7 @@ Simulation Dynamics has developed a network simulation used to dynamically model
 
 ### Key Model Issues
 
-Using the library of network component blocks which comes with the system, the user builds a network simulation by pulling graphical node blocks onto the screen, and connecting them together. In the model, any node can be connected to up to 3 other nodes. Any node can be defined as a POP. Following graphical model layout, a central analyzer block surveys blocks on the model, and builds a database of the relationships among nodes and links. The connections, or links drawn by the user, can be defined in the database to carry a limited number of calls. The database houses additional tables for input and output. For example, a Call Patterns table is provided for defining various patterns of call intervals and durations. Each node can be assigned a different call pattern. Once built, the entire database can be exported to another package, such as MS Excel or Access.
+Using the library of network component blocks which comes with the system, the user builds a network simulation by pulling graphical node blocks onto the screen, and connecting them together. In the model, any node can be connected to up to 3 other nodes. Any node can be defined as a POP. Following graphical model layout, a central analyzer block surveys blocks on the model, and builds a database of the relationships among nodes and links. The connections, or links drawn by the user, can be defined in the database to carry a limited number of calls. The database houses additional tables for input and output. For example, a Call Patterns table is provided for defining various patterns of call intervals and durations. Each node can be assigned a different call pattern. Once built, the entire database can be exported to another package, such as MS Excel or Access — or explored directly in the browser using the [Cloud DB Viewer](https://db.chiaha.com/).
 
 When the model is run, performance information is indicated on the graphical layout using text and colors. For example, a link which becomes increasingly busy will change in color from light blue to red. When a link becomes red, calls must be re-routed. In the database, a table stores run statistics such as each node's throughput in call-minutes, and each link's maximum channel utilization. The model also computes the overall blocking rate, defined as the number of blocked calls divided by the number of attempted calls.
 

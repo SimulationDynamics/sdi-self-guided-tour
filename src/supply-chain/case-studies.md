@@ -207,7 +207,7 @@ Revolutionary change in analysis capabilities and decision-making speed. The mod
 *"If anyone here tells you they understand our supply chain, they are lying!"* - Customer executive
 
 **After Model Development:**
-The collaborative model-based consulting approach helped supply chain leaders visualize and understand complex network dynamics, transforming their strategic decision-making capabilities.
+The collaborative model-based consulting approach helped supply chain leaders visualize and understand complex network dynamics, transforming their strategic decision-making capabilities. The database and simulation tools used to build that model have since been completely reimplemented — the "video view" now runs at speeds that were not possible in 2001.
 
 ### Strategic Assessment
 

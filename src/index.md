@@ -77,3 +77,23 @@ In each of these areas, you can look at the strategic areas that our models have
 - **Government & Defense** - Critical national security resource planning
 - **Automated Warehousing** - 94% productivity improvements
 - **Process Manufacturing** - Real-time operator coaching and optimization
+
+---
+
+### Technology Platform: The SDI Database
+
+<div class="callout">Your simulation database is a production ontology — a structured encoding of your operational knowledge. It shouldn't be locked inside a proprietary tool.</div>
+
+SDI's founder originally designed the database system that powers ExtendSim's data-driven simulation models. That same architect has now rebuilt it — faster, portable, cloud-ready, and free from proprietary constraints.
+
+**[Cloud DB Viewer](https://db.chiaha.com/)** — Upload any ExtendSim-compatible database text file and explore it instantly in your browser. No license required. No software to install. Share it with your team via URL.
+
+The database-driven approach that powers every case study on this tour — from nuclear weapons resource planning to billion-dollar automotive logistics — is now available as an open, cloud-accessible platform. Your data belongs to you.
+
+The database was the first thing we rebuilt. It was not the last.
+
+---
+
+*If you trained on our methodology, built models with our libraries, or have an ExtendSim database your organization still depends on — there are things here you'll want to see. Some of them aren't on this tour yet.*
+
+*[andrew@chiaha.com](mailto:andrew@chiaha.com)*
