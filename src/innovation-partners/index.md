@@ -97,9 +97,7 @@ SDI strategically partners with [Process Partners](https://process-partners.com/
 
 **The Innovation:** [Jim Breslin's](https://www.linkedin.com/in/james-breslin-ab91007/) patented decoupling technology addresses a key bottleneck in flaked cereal production lines where cooker capacity exceeds oven throughput. By enabling manufacturers to shelf-stabilize partially-cooked corn grits and continue processing (flaking) at different locations or times, this approach could save tens of millions of dollars industry-wide.
 
-**SDI's Contribution:** Built the [Decoupling Simulator](https://apps.chiaha.com/DecouplingSimulator), a comprehensive production simulation tool built on ReliaSim's Discrete Rate Simulation engine — the same DRS technology SDI originally created for ExtendSim®, now reimplemented and running 1,200x faster. The simulator models the entire production flow — 12 parallel cookers, hot temper surge bin, 16 mills, 4 ovens, and decoupling modules (off-ramp dryer, tote storage, on-ramp feeder) — using rate-based dynamics rather than individual units, enabling annual scenarios to run in seconds.
-
-**Live Demonstration:** [Decoupling Simulator](https://apps.chiaha.com/DecouplingSimulator) - Interactive cloud-based simulation demonstrating SDI's Model-Based Applications approach. Users can adjust on/off-ramp machines, tote storage capacity, transfer rates, surge bin size, and downtime parameters to explore alternative process flows.
+**SDI's Contribution:** Built the [Decoupling Simulator](https://apps.chiaha.com/DecouplingSimulator), an interactive cloud-based production simulation built on ReliaSim's Discrete Rate Simulation engine — the same DRS technology SDI originally created for ExtendSim®, now reimplemented and running 1,200x faster.
 
 #### Model Purpose
 
