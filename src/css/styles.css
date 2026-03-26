@@ -699,6 +699,12 @@ html.dark .site-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.footer-trademark {
+  margin-top: 0.35rem;
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.25);
+}
+
 /* --- Mobile Sidebar --- */
 .sidebar-backdrop {
   display: none;

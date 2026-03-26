@@ -88,8 +88,6 @@ SDI's founder originally designed the database system that powers ExtendSim®'s 
 
 **[Cloud DB Viewer](https://db.chiaha.com/)** — Upload any ExtendSim®-compatible database text file and explore it instantly in your browser. No license required. No software to install. Share it with your team via URL.
 
-<small>ExtendSim® is a registered trademark of ANDRITZ INC. Simulation Dynamics is not affiliated with or endorsed by ANDRITZ.</small>
-
 The database-driven approach that powers every case study on this tour — from nuclear weapons resource planning to billion-dollar automotive logistics — is now available as an open, cloud-accessible platform. Your data belongs to you.
 
 The database was the first thing we rebuilt. It was not the last.
