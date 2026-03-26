@@ -16,6 +16,15 @@
   <link rel="icon" href="/logos/favicon.png" type="image/png" sizes="512x512">
   <link rel="apple-touch-icon" href="/logos/apple-touch-icon.png">
   <link rel="stylesheet" href="/css/styles.css">
+  <script>
+    // Dark mode: apply before paint to prevent flash
+    (function() {
+      var pref = localStorage.getItem('sdi-dark-mode');
+      if (pref === 'enabled' || (!pref && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -23,11 +32,21 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
+  <!-- Dark Mode Toggle -->
+  <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+    <svg class="icon-sun" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+      <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"/>
+    </svg>
+    <svg class="icon-moon" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+      <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
+    </svg>
+  </button>
+
   <!-- Header -->
   <header class="site-header">
     <button class="hamburger" onclick="toggleSidebar()" aria-label="Toggle navigation">&#9776;</button>
-    <a href="/">
-      <img src="/logos/Horizontal-Logo-SimulationDynamics-White.svg" alt="Simulation Dynamics">
+    <a href="/" class="header-logo">
+      <img src="/logos/Horizontal-Logo-SimulationDynamics-White.svg" alt="Simulation Dynamics" class="logo-img">
     </a>
     <span class="site-title">Self-Guided Tour</span>
   </header>
@@ -98,10 +117,41 @@
 
   <!-- Footer -->
   <footer class="site-footer">
-    <img src="/logos/Horizontal-Logo-SimulationDynamics-White.svg" alt="Simulation Dynamics">
-    <p>&copy; 2026 Simulation Dynamics, Inc. &bull;
-      <a href="https://simulationdynamics.com">simulationdynamics.com</a>
-    </p>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="https://simulationdynamics.com" class="footer-logo-link">
+          <img src="/logos/Horizontal-Logo-SimulationDynamics-White.svg" alt="Simulation Dynamics" class="footer-logo">
+        </a>
+      </div>
+      <div class="footer-contact">
+        <p>Questions about what you've seen here?</p>
+        <div class="footer-links">
+          <a href="mailto:andrew@chiaha.com" class="footer-link" aria-label="Email us">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="14" cy="14" r="14" fill="white" fill-opacity="0.15"/>
+              <g stroke="currentColor" stroke-width="1.5" fill="none">
+                <path d="M8,10H20a.67.67,0,0,1,.67.67V18a.67.67,0,0,1-.67.67H8A.67.67,0,0,1,7.33,18V10.67A.67.67,0,0,1,8,10Z"/>
+                <path d="M7.33,10,14,15.33,20.67,10"/>
+              </g>
+            </svg>
+            andrew@chiaha.com
+          </a>
+          <a href="https://www.linkedin.com/company/simulation-dynamics" class="footer-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="14" cy="14" r="14" fill="white" fill-opacity="0.15"/>
+              <path fill="currentColor" d="M20.5,20H18V16.5c0-1.1-.46-1.86-1.46-1.86a1.47,1.47,0,0,0-1.39,1,.93.93,0,0,0-.06.67V20H12.6s0-7.5,0-8.18h2.9v1.28a2.72,2.72,0,0,1,2.57-1.36c1.8,0,3.27,1.2,3.27,3.7V20h0ZM9.77,10.8h0A1.43,1.43,0,0,1,8.2,9.52v-.13a1.57,1.57,0,1,1,1.72,1.41h-.17Zm-1.2,1h2.58V20H8.57V11.82Z"/>
+            </svg>
+            LinkedIn
+          </a>
+          <a href="https://simulationdynamics.com" class="footer-link" target="_blank" rel="noopener noreferrer">
+            simulationdynamics.com
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>&copy; 2026 Simulation Dynamics, Inc.</p>
+    </div>
   </footer>
 
   <script>
@@ -109,6 +159,13 @@
       document.getElementById('sidebar').classList.toggle('open');
       document.getElementById('sidebar-backdrop').classList.toggle('open');
     }
+
+    // Dark mode toggle
+    document.getElementById('darkModeToggle').addEventListener('click', function() {
+      document.documentElement.classList.toggle('dark');
+      var isDark = document.documentElement.classList.contains('dark');
+      localStorage.setItem('sdi-dark-mode', isDark ? 'enabled' : 'disabled');
+    });
   </script>
 </body>
 </html>
