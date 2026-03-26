@@ -98,4 +98,4 @@ The database was the first thing we rebuilt. It was not the last.
 
 *If you trained on our methodology, built models with our libraries, or have an ExtendSim database your organization still depends on — there are things here you'll want to see. Some of them aren't on this tour yet.*
 
-*[andrew@chiaha.com](mailto:andrew@chiaha.com)*
+*[support@SimulationDynamics.com](mailto:support@SimulationDynamics.com)*
