@@ -155,6 +155,46 @@
     </div>
   </footer>
 
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    function initMermaid() {
+      var isDark = document.documentElement.classList.contains('dark');
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: 'base',
+        themeVariables: {
+          primaryColor: isDark ? '#1e3a4a' : '#e8f5e9',
+          primaryTextColor: isDark ? '#d1d5db' : '#373F3F',
+          primaryBorderColor: isDark ? '#4CD964' : '#4CD964',
+          lineColor: isDark ? '#4CD964' : '#3D8A95',
+          secondaryColor: isDark ? '#2a3a4a' : '#f0f4f8',
+          tertiaryColor: isDark ? '#374151' : '#D6DAE1',
+          background: isDark ? '#1a2332' : '#f8f9fa',
+          fontFamily: 'system-ui, -apple-system, sans-serif',
+          fontSize: '14px'
+        },
+        flowchart: { curve: 'basis', padding: 15 }
+      });
+      mermaid.run();
+    }
+    initMermaid();
+    // Re-render on dark mode toggle
+    document.getElementById('darkModeToggle').addEventListener('click', function() {
+      setTimeout(function() {
+        document.querySelectorAll('.mermaid').forEach(function(el) {
+          el.removeAttribute('data-processed');
+          var code = el.getAttribute('data-original');
+          if (code) el.innerHTML = code;
+        });
+        initMermaid();
+      }, 50);
+    });
+    // Store original mermaid source for re-rendering
+    document.querySelectorAll('.mermaid').forEach(function(el) {
+      el.setAttribute('data-original', el.textContent);
+    });
+  </script>
+
   <script>
     function toggleSidebar() {
       document.getElementById('sidebar').classList.toggle('open');

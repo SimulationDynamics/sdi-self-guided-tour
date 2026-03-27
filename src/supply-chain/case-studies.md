@@ -20,7 +20,34 @@ The following case studies illustrate SDI's supply chain simulation work:
 </ul>
 </div>
 
-<img src="/images/CaseStudiesAllSupplyChain.png" alt="Case Studies: Supply Chain" />
+<div class="mermaid">
+graph LR
+    subgraph sections[" "]
+        direction TB
+        M["Manufacturing"]
+        SC["🟢 Supply Chain"]
+        L["Logistics"]
+        RM["Resource Management"]
+    end
+    SC -->|" "| CS1["Downstream Packaging Model
+    assessment of moving packaging
+    operations downstream to DCs"]
+    SC -->|" "| CS2["Inventory Deployment Model
+    upstream vs. downstream
+    deployment of cycle stock"]
+    SC -->|" "| CS3["General Mills
+    transforming supply chain
+    analysis with simulation"]
+    SC -->|" "| CS4["Life Cycle Resource Management
+    capacity vs. demand mismatch
+    across a product life cycle"]
+    classDef active fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F
+    classDef dimmed fill:#f0f4f8,stroke:#D6DAE1,stroke-width:1px,color:#9ca3af
+    classDef caseStudy fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F
+    class SC active
+    class M,L,RM dimmed
+    class CS1,CS2,CS3,CS4 caseStudy
+</div>
 
 ---
 

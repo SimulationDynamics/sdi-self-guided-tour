@@ -18,7 +18,31 @@ The following case studies illustrate SDI's logistics simulation work:
 </ul>
 </div>
 
-<img src="/images/CaseStudiesAllLogistics.png" alt="Case Studies: Logistics">
+<div class="mermaid">
+graph LR
+    subgraph sections[" "]
+        direction TB
+        M["Manufacturing"]
+        SC["Supply Chain"]
+        L["🟢 Logistics"]
+        RM["Resource Management"]
+    end
+    L -->|" "| CS1["VINLogic Model
+    transport of vehicles from
+    plants to dealers — $1B+ savings"]
+    L -->|" "| CS2["TLoaDS Model
+    re-supply of Marine units
+    from supply ships"]
+    L -->|" "| CS3["Automated Warehouse
+    94% productivity improvement in
+    multimodal robotic warehousing"]
+    classDef active fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F
+    classDef dimmed fill:#f0f4f8,stroke:#D6DAE1,stroke-width:1px,color:#9ca3af
+    classDef caseStudy fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F
+    class L active
+    class M,SC,RM dimmed
+    class CS1,CS2,CS3 caseStudy
+</div>
 
 ---
 

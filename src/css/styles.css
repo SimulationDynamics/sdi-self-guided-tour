@@ -620,6 +620,31 @@ html.dark .callout {
   text-align: right;
 }
 
+/* --- Mermaid Diagrams --- */
+.mermaid {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+html.dark .mermaid [class*="dimmed"] rect,
+html.dark .mermaid [class*="dimmed"] polygon {
+  fill: #2a3a4a !important;
+  stroke: #374151 !important;
+}
+
+html.dark .mermaid [class*="active"] rect,
+html.dark .mermaid [class*="active"] polygon,
+html.dark .mermaid [class*="caseStudy"] rect,
+html.dark .mermaid [class*="caseStudy"] polygon {
+  fill: #1e3a4a !important;
+  stroke: #4CD964 !important;
+}
+
 /* --- Footer --- */
 .site-footer {
   background: #225459;
