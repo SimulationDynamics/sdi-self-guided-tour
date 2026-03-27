@@ -27,15 +27,18 @@ graph LR
         L["🟢 Logistics"]
         RM["Resource Management"]
     end
-    L -->|" "| CS1["VINLogic Model
+    L -->|" "| CS1["`**VINLogic Model**
     transport of vehicles from
-    plants to dealers — $1B+ savings"]
-    L -->|" "| CS2["TLoaDS Model
+    plants to dealers — $1B+ savings`"]
+    L -->|" "| CS2["`**TLoaDS Model**
     re-supply of Marine units
-    from supply ships"]
-    L -->|" "| CS3["Automated Warehouse
+    from supply ships`"]
+    L -->|" "| CS3["`**Automated Warehouse**
     94% productivity improvement in
-    multimodal robotic warehousing"]
+    multimodal robotic warehousing`"]
+    click CS1 "/logistics/case-studies/#vinlogic-model"
+    click CS2 "/logistics/case-studies/#tloads-model"
+    click CS3 "/logistics/case-studies/#automated-warehouse"
     classDef active fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F
     classDef dimmed fill:#f0f4f8,stroke:#D6DAE1,stroke-width:1px,color:#9ca3af
     classDef caseStudy fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F

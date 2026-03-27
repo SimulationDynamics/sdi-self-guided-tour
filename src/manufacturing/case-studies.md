@@ -26,12 +26,14 @@ graph LR
         L["Logistics"]
         RM["Resource Management"]
     end
-    M -->|" "| CS1["Chemical Packaging Model
+    M -->|" "| CS1["`**Chemical Packaging Model**
     assessment of alternative bagging line
-    configurations and scheduling parameters"]
-    M -->|" "| CS2["Food Processing Capacity Optimization
+    configurations and scheduling parameters`"]
+    M -->|" "| CS2["`**Food Processing Capacity Optimization**
     15% throughput improvement
-    through scheduling optimization"]
+    through scheduling optimization`"]
+    click CS1 "/manufacturing/case-studies/#chemical-packaging-model"
+    click CS2 "/manufacturing/case-studies/#food-processing-capacity-optimization"
     classDef active fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F
     classDef dimmed fill:#f0f4f8,stroke:#D6DAE1,stroke-width:1px,color:#9ca3af
     classDef caseStudy fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F

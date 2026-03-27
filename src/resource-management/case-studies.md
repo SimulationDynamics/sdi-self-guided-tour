@@ -30,24 +30,30 @@ graph LR
         L["Logistics"]
         RM["🟢 Resource Management"]
     end
-    RM -->|" "| CS1["DOE Equipment Rehab Model
+    RM -->|" "| CS1["`**DOE Equipment Rehab Model**
     25-year resource requirements
-    for nuclear weapons complex"]
-    RM -->|" "| CS2["TRU Waste System Model
+    for nuclear weapons complex`"]
+    RM -->|" "| CS2["`**TRU Waste System Model**
     35-year waste processing,
-    transportation, and disposal"]
-    RM -->|" "| CS3["Dynamic Ground Segment Model
+    transportation, and disposal`"]
+    RM -->|" "| CS3["`**Dynamic Ground Segment Model**
     Delta IV launch vehicle
-    assembly validation"]
-    RM -->|" "| CS4["KBR Services Model
+    assembly validation`"]
+    RM -->|" "| CS4["`**KBR Services Model**
     facility maintenance
-    service contract estimation"]
-    RM -->|" "| CS5["Communications Network Model
+    service contract estimation`"]
+    RM -->|" "| CS5["`**Communications Network Model**
     network capacity and
-    call routing simulation"]
-    RM -->|" "| CS6["Project Task Network Model
+    call routing simulation`"]
+    RM -->|" "| CS6["`**Project Task Network Model**
     task precedence and
-    resource-constrained scheduling"]
+    resource-constrained scheduling`"]
+    click CS1 "/resource-management/case-studies/#doe-equipment-rehab"
+    click CS2 "/resource-management/case-studies/#tru-waste-system"
+    click CS3 "/resource-management/case-studies/#dynamic-ground-segment"
+    click CS4 "/resource-management/case-studies/#kbr-services"
+    click CS5 "/resource-management/case-studies/#communications-network"
+    click CS6 "/resource-management/case-studies/#project-task-network"
     classDef active fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F
     classDef dimmed fill:#f0f4f8,stroke:#D6DAE1,stroke-width:1px,color:#9ca3af
     classDef caseStudy fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F

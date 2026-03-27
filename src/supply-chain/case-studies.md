@@ -29,18 +29,22 @@ graph LR
         L["Logistics"]
         RM["Resource Management"]
     end
-    SC -->|" "| CS1["Downstream Packaging Model
+    SC -->|" "| CS1["`**Downstream Packaging Model**
     assessment of moving packaging
-    operations downstream to DCs"]
-    SC -->|" "| CS2["Inventory Deployment Model
+    operations downstream to DCs`"]
+    SC -->|" "| CS2["`**Inventory Deployment Model**
     upstream vs. downstream
-    deployment of cycle stock"]
-    SC -->|" "| CS3["General Mills
+    deployment of cycle stock`"]
+    SC -->|" "| CS3["`**General Mills**
     transforming supply chain
-    analysis with simulation"]
-    SC -->|" "| CS4["Life Cycle Resource Management
+    analysis with simulation`"]
+    SC -->|" "| CS4["`**Life Cycle Resource Management**
     capacity vs. demand mismatch
-    across a product life cycle"]
+    across a product life cycle`"]
+    click CS1 "/supply-chain/case-studies/#downstream-packaging-model"
+    click CS2 "/supply-chain/case-studies/#inventory-deployment-model"
+    click CS3 "/supply-chain/case-studies/#general-mills"
+    click CS4 "/supply-chain/case-studies/#life-cycle-resource-management"
     classDef active fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F
     classDef dimmed fill:#f0f4f8,stroke:#D6DAE1,stroke-width:1px,color:#9ca3af
     classDef caseStudy fill:#e8f5e9,stroke:#4CD964,stroke-width:2px,color:#373F3F

@@ -31,12 +31,16 @@ These changes add subtle, forward-looking signals at points in the tour where we
 
 ---
 
-## 3. Innovation Partners — Process Partners: Decoupling Simulator
+## 3. ~~Innovation Partners — Process Partners: Decoupling Simulator~~ *(Removed)*
 
-**File:** [`src/innovation-partners/index.md`](src/innovation-partners/index.md)
-**Live URL:** [tour.simulationdynamics.com/innovation-partners/#process-partners](https://tour.simulationdynamics.com/innovation-partners/#process-partners)
+> **Note (March 2026):** The Innovation Partners section has been removed from the SDI tour. The Process Partners collaboration and AdaptiveCoaching.ai case study are moving to the new ChiAha Self-Guided Tour. The Automated Warehouse (Symbotic) case study moved to Logistics.
+>
+> The tease points below were part of the original plan but are no longer live on this site. They may be adapted for the ChiAha tour.
 
-**What changed:** Two additions:
+**Original file:** `src/innovation-partners/index.md` *(deleted)*
+**Original URL:** `tour.simulationdynamics.com/innovation-partners/#process-partners` *(no longer exists)*
+
+**What was planned:** Two additions:
 
 1. In the SDI Contribution paragraph, expanded to note the DRS engine is *"the same DRS technology SDI originally created for ExtendSim, now reimplemented and running 1,200x faster."*
 2. Added two new bullets in Project Results:
@@ -97,7 +101,7 @@ These changes add subtle, forward-looking signals at points in the tour where we
 |---|------|----------|-------|--------|
 | 1 | Homepage | [tour.simulationdynamics.com](https://tour.simulationdynamics.com/) | Database platform | "Not the last thing we rebuilt" + mysterious CTA |
 | 2 | Manufacturing | [/manufacturing/#operational-strategies](https://tour.simulationdynamics.com/manufacturing/#operational-strategies) | DRS / Make-Store-Pack | Rate-based engine rebuilt, surprising results |
-| 3 | Innovation Partners | [/innovation-partners/#process-partners](https://tour.simulationdynamics.com/innovation-partners/#process-partners) | DRS / Decoupling Simulator | 1,200x faster, being applied to new domains |
+| 3 | ~~Innovation Partners~~ | *(removed — moving to ChiAha tour)* | DRS / Decoupling Simulator | *(see ChiAha tour)* |
 | 4 | Logistics | [/logistics/case-studies/#vinlogic-model](https://tour.simulationdynamics.com/logistics/case-studies/#vinlogic-model) | Database + SC engine | SC simulation engine rebuilt too |
 | 5 | Supply Chain | [/supply-chain/case-studies/#general-mills](https://tour.simulationdynamics.com/supply-chain/case-studies/#general-mills) | Database + simulation tools | "Video view" at impossible speeds |
 | 6 | Resource Mgmt | [/resource-management/case-studies/#doe-equipment-rehab](https://tour.simulationdynamics.com/resource-management/case-studies/#doe-equipment-rehab) | Database as knowledge asset | Cloud DB callout on 25-year model |
