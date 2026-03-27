@@ -36,10 +36,5 @@
       { "title": "Strategic Assessment", "url": "/resource-management/" },
       { "title": "Case Studies", "url": "/resource-management/case-studies/" }
     ]
-  },
-  {
-    "title": "Innovation Partners",
-    "url": "/innovation-partners/",
-    "children": []
   }
 ]

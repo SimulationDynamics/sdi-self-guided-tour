@@ -14,6 +14,7 @@ The following case studies illustrate SDI's logistics simulation work:
 <ul>
 <li class="case-study"><a href="#vinlogic-model">VINLogic Model</a><div class="description">transport of vehicles from plants to dealers — $1B+ annual savings</div></li>
 <li class="case-study"><a href="#tloads-model">TLoaDS Model</a><div class="description">re-supply of Marine units from supply ships</div></li>
+<li class="case-study"><a href="#automated-warehouse">Automated Warehouse System Design</a><div class="description">94% productivity improvement in multimodal robotic warehousing (Symbotic)</div></li>
 </ul>
 </div>
 
@@ -180,3 +181,70 @@ TLoaDS development started in 1997 under the sponsorship of Marine Corps Systems
 #### Relationship between TLoaDS, CLoaDS, X.LoaDS and A-LoaDS
 
 TLoaDS and CLoaDS are application names defined in context of both the current sponsors and initial uses. TLoaDS is designed to simulate the sustainment and movement of marine air ground task forces (MAGTFs) ashore from ships at sea, as if those ships never run out of supplies. CLoaDS is designed to simulate the sustainment of those ships at sea. This includes the shuttle ships resupplying the station ships, and the station ships resupplying the ships that resupply the MAGTF. The figure to the right shows this simplistic application relationship.
+
+---
+
+<h2 id="automated-warehouse">Automated Warehouse System Design</h2>
+
+### Background
+
+Symbotic needed to optimize their next-generation automated warehouse design for maximum productivity and efficiency in multimodal robotic warehousing operations.
+
+#### Model Purpose
+
+SDI worked with Symbotic to help design their "Warehouse of the Future" through comprehensive simulation modeling and optimization, developing AI algorithms and digital twin capabilities.
+
+#### Key model inputs
+
+- Robotic system specifications and performance parameters
+- Facility layout alternatives and constraints
+- Task orchestration and inventory positioning strategies
+- System balancing requirements across multiple operational modes
+
+#### Key Experiment Factors
+
+- Facility layout optimization scenarios
+- Task orchestration algorithm alternatives
+- Inventory positioning strategy evaluation
+- Global system balancing approaches
+
+#### System Performance Measures
+
+- Overall warehouse productivity and throughput
+- Robotic system utilization and efficiency
+- Task completion times and system responsiveness
+- Operational cost and performance trade-offs
+
+#### Model View
+
+The following video shows this model in action:
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1em 0;">
+<iframe src="https://www.youtube.com/embed/g8tDNwvJDtI" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
+</div>
+
+### Project Results
+
+This collaboration involved developing AI algorithms and digital twin capabilities to simulate and diagnose performance issues, optimize global system balancing, facility layout, task orchestration, and inventory positioning.
+
+- 94% productivity improvement in multimodal robotic warehousing achieved through SDI's simulation expertise
+- AI algorithms and digital twin development for automated systems
+- Design optimization for next-generation warehouse automation
+- Simulation-optimized facility layout enabling breakthrough productivity gains
+
+- *"Bob and Spencer were excellent simulation engineers. They were careful and thorough with understanding our issues. Their simulation was developed with alacrity and accuracy. The SDI team went above and beyond the project scope, proactively brainstorming ways to make our project better."* - [J Adam Traina](https://www.linkedin.com/in/jadamtraina/), Director of Operations Research, Symbotic
+
+### Industry Recognition
+
+Featured in [Wall Street Journal](https://www.wsj.com/articles/inside-walmarts-warehouse-of-the-future-6f17d17a) as "Warehouse of the Future" demonstrating the impact of simulation-optimized design on warehouse automation.
+
+### Strategic Assessment
+
+The following list provides links to articles within this document that address strategic assessment issues related to this case study:
+
+- [Manufacturing: Capacity Analysis](/manufacturing/#capacity-analysis)
+  Ability of automated systems to handle projected throughput requirements with validation through simulation modeling.
+- [Resource Management: Long Term Resource Requirements](/resource-management/#long-term-resource-requirements)
+  Assessment of long term resource requirements and operational costs for automated warehouse systems.
+- [Resource Management: Network Capacity](/resource-management/#network-capacity)
+  Assessment of the capacity of automated networks to carry specified material flows under various operational scenarios.

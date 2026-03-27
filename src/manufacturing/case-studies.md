@@ -14,7 +14,6 @@ The following case studies illustrate SDI's manufacturing simulation work:
 <ul>
 <li class="case-study"><a href="#chemical-packaging-model">Chemical Packaging Model</a><div class="description">assessment of alternative bagging line configurations and scheduling parameters</div></li>
 <li class="case-study"><a href="#food-processing-capacity-optimization">Food Processing Capacity Optimization</a><div class="description">15% throughput improvement through scheduling optimization</div></li>
-<li class="case-study"><a href="#real-time-process-coaching">Real-Time Process Coaching - AdaptiveCoaching.ai</a><div class="description">real-time operator decision support for industrial food processing</div></li>
 </ul>
 </div>
 
@@ -150,63 +149,3 @@ The following list provides links to articles within this document that address 
 
 *[Capacity Planning Simulation of an Olive Processing Plant](https://simulationdynamics.com/wp-content/uploads/2026/03/olive.pdf)*
 
----
-
-<h2 id="real-time-process-coaching">Real-Time Process Coaching - AdaptiveCoaching.ai</h2>
-
-<div class="callout">Real-time operator decision support for industrial food processing</div>
-
-### Background
-
-Industrial food processing operations needed real-time guidance for operators managing complex jet zone cooking processes, balancing product quality, safety, and energy efficiency.
-
-#### Model Purpose
-
-In partnership with [Process Partners](https://process-partners.com/), SDI developed Adaptive Coaching technology that provides real-time expert suggestions to operators through intuitive coaching interfaces, building on their existing expertise while optimizing performance.
-
-#### Key model inputs
-
-- Real-time process parameters from PLC systems
-- Historical expert operator settings and outcomes
-- First-principles models of cooking processes
-- Quality and safety constraint parameters
-
-#### Key Experiment Factors
-
-- Operator interface design and usability testing
-- Expert suggestion algorithms and validation
-- Integration with existing HMI systems
-- Performance improvement measurement methodologies
-
-#### System Performance Measures
-
-- Operator confidence and acceptance metrics
-- Process consistency and quality delivery
-- Energy consumption optimization
-- Integration effectiveness with existing systems
-
-### Project Results
-
-This innovation exemplifies SDI's approach to creating practical solutions that enhance human decision-making rather than replacing it. The system integrated seamlessly into existing operations, providing operators with confidence-building recommendations.
-
-- Improved operator confidence and consistent quality delivery
-- Real-time expert suggestions within points of operator settings
-- Seamless integration into existing operational workflows
-- Enhanced decision-making without replacing human expertise
-
-- *"Adaptive Coaching has been a good tool for the operators. They have been using it as a tool to reassure the oven settings. The Adaptive Coaching suggestions are within a few points of the settings the operators are using."* - K.B, Process Technology Owner, CPG - Snacks
-
-### Current Availability
-
-Available as OT/edge applications running on plant floor networks with PLC connections and HMI interfaces, expanding beyond jetzone ovens to other industrial applications. Learn more at [AdaptiveCoaching.ai](https://AdaptiveCoaching.ai).
-
-### Strategic Assessment
-
-The following list provides links to articles within this document that address strategic assessment issues related to this case study:
-
-- [Manufacturing: Operational Strategies](/manufacturing/#operational-strategies)
-  Impact of real-time decision support systems on throughput and resource utilization in food processing operations.
-- [Strategic Assessment: Manufacturing](/manufacturing/)
-  Technology applications for enhancing operator decision-making and process optimization in complex manufacturing environments.
-
----
