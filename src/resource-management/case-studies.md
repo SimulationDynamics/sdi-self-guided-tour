@@ -143,7 +143,7 @@ The following provides links to articles within this document that address strat
 
 ### Summary
 
-The DYNAMIC GROUND SEGMENT MODEL (DGSM) is a custom Extend model serving as a validation tool to establish that a planned Delta IV 20 year launch would meet minimum contract performance standards of 80% of launches within acceptable limits, including periodic unscheduled launches.
+The DYNAMIC GROUND SEGMENT MODEL (DGSM) is a custom DES model serving as a validation tool to establish that a planned Delta IV 20 year launch would meet minimum contract performance standards of 80% of launches within acceptable limits, including periodic unscheduled launches.
 
 <img src="/images/CaseDGSM_Overview.png" alt="DGSM Model"><img src="/images/CaseDGSM_TaskSubModel.png" alt="DGSM Task Sub-page">
 

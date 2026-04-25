@@ -63,7 +63,7 @@ The VinLogic model was developed by Simulation Dynamics for Insight Network Logi
 
 **The Challenge:** An automobile manufacturer and railroad company formed a joint venture to manage the entire distribution system between 12 factories and 80+ dealers across the United States. At any given time, over 100,000 vehicles worth billions of dollars were in transit. The goal was ambitious: reduce the number of vehicles in the network by 20% to achieve massive cost savings.
 
-**The Technical Crisis:** Originally built in ExtendSim® using the SDI Supply Chain Builder library, the model struggled with terabytes of real-time data and took 6 hours to run. This made it unusable for business decision-making - no CFO could wait 6 hours for budget analysis, and crisis response was impossible. *(The database architecture SDI originally designed for ExtendSim has since been reimplemented as an open, cloud-accessible platform — see [Cloud DB Viewer](https://db.chiaha.com/). The supply chain simulation engine has been rebuilt too.)*
+**The Technical Crisis:** Originally built in a major commercial DES platform using the SDI Supply Chain Builder library, the model struggled with terabytes of real-time data and took 6 hours to run. This made it unusable for business decision-making - no CFO could wait 6 hours for budget analysis, and crisis response was impossible. *(The database architecture SDI originally designed for that platform has since been reimplemented as an open, cloud-accessible platform — see [Cloud DB Viewer](https://db.chiaha.com/). The supply chain simulation engine has been rebuilt too.)*
 
 **The Model-Based Applications Revolution:** SDI made the bold decision to completely rebuild VINLogic in .NET, achieving three major breakthroughs:
 
