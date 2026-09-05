@@ -86,7 +86,7 @@ In each of these areas, you can look at the strategic areas that our models have
 
 SDI's founder originally designed the database system that powers ExtendSim®'s data-driven simulation models. That same architect has now rebuilt it — faster, portable, cloud-ready, and free from proprietary constraints.
 
-**[Cloud DB Viewer](https://db.chiaha.com/)** — Upload any ExtendSim®-compatible database text file and explore it instantly in your browser. No license required. No software to install. Share it with your team via URL.
+**[Cloud DB Viewer](https://db.chiaha.com/)** — Explore ten real ExtendSim®-compatible simulation databases in your browser, and edit any cell as you go. No license required. No software to install. Share a table with your team via URL.
 
 The database-driven approach that powers every case study on this tour — from nuclear weapons resource planning to billion-dollar automotive logistics — is now available as an open, cloud-accessible platform. Your data belongs to you.
 
