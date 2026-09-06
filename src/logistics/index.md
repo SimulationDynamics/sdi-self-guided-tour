@@ -36,7 +36,7 @@ Typically, manufacturing or supply chain simulations require a warm up period to
 
 Tactical models do not have this luxury. It is necessary to capture data on the current state of the real world system and input that data to define the initial state of the model for the simulation run. In the case of the VinLogic model, INL maintains VinVison, a web-deployed application that tracks the location of individual vehicle shipments, inventories, trucks and rail cars throughout the distribution network. The VinLogic simulation model uses live data from VinVison to initialize each model run.
 
-*[Initializing a Distribution Supply Chain Simulation with Live Data](http://www.informs-cs.org/wsc03papers/206.pdf)*; Malay Dalal, Union Pacific Railroad; Henry Bell, Mike Denzien, Simulation Dynamics; Michael Keller, Insight Network Logistics. Winder Simulation Conference, 2003
+*[Initializing a Distribution Supply Chain Simulation with Live Data](https://informs-sim.org/wsc03papers/206.pdf)*; Malay Dalal, Union Pacific Railroad; Henry Bell, Mike Denzien, Simulation Dynamics; Michael Keller, Insight Network Logistics. Winder Simulation Conference, 2003
 
 ### Case Studies
 

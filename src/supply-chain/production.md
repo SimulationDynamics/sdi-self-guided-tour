@@ -89,7 +89,7 @@ It is common for the systems where run length is of greatest concern to also be 
 
 Company X has four plants producing 14 brands on five mixing systems. These systems feed packaging lines that produce 18 SKU's. Customers are supplied from seven company owned DC's; a few customers are supplied directly from the plants. Each DC is assigned to a primary plant. During times of demand over capacity, plants can shift demand to other plants that make the same product. When demand is over capacity system wide, product is pre-built to meet the anticipated excess demand.
 
-The impact of varying production run lengths was assed on changeover costs, inventory costs and customer service. The findings of this study can be found in *[Impact of Run Length on Supply Chain Performance](http://www.informs-sim.org/wsc04papers/148.pdf)*. The following is a sample chart from the paper:
+The impact of varying production run lengths was assed on changeover costs, inventory costs and customer service. The findings of this study can be found in *[Impact of Run Length on Supply Chain Performance](https://informs-sim.org/wsc04papers/148.pdf)*. The following is a sample chart from the paper:
 
 <img src="/images/ScRunLengthAnalysis.png" alt="Run Length Analysis" />
 
