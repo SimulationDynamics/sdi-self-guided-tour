@@ -12,7 +12,7 @@ The following case studies illustrate SDI's resource management simulation work:
 <h4>Case Studies</h4>
 
 <ul>
-<li class="case-study"><a href="#doe-equipment-rehab">DOE Equipment Rehab Model</a><div class="description">25-year resource requirements for nuclear weapons complex</div></li>
+<li class="case-study"><a href="#doe-equipment-rehab">DOE Equipment Rehab Model (IRPM)</a><div class="description">25-year resource requirements for nuclear weapons complex</div></li>
 <li class="case-study"><a href="#tru-waste-system">TRU Waste System Model</a><div class="description">35-year waste processing, transportation, and disposal</div></li>
 <li class="case-study"><a href="#dynamic-ground-segment">Dynamic Ground Segment Model</a><div class="description">Delta IV launch vehicle assembly validation</div></li>
 <li class="case-study"><a href="#kbr-services">KBR Services Model</a><div class="description">facility maintenance service contract estimation</div></li>
@@ -30,7 +30,7 @@ graph LR
         L["Logistics"]
         RM["🟢 Resource Management"]
     end
-    RM -->|" "| CS1["`**DOE Equipment Rehab Model**
+    RM -->|" "| CS1["`**DOE Equipment Rehab Model (IRPM)**
     25-year resource requirements
     for nuclear weapons complex`"]
     RM -->|" "| CS2["`**TRU Waste System Model**
@@ -64,7 +64,7 @@ graph LR
 
 ---
 
-<h2 id="doe-equipment-rehab">DOE Equipment Rehab Model</h2>
+<h2 id="doe-equipment-rehab">DOE Equipment Rehab Model (IRPM)</h2>
 
 ### Summary
 
@@ -74,7 +74,7 @@ The National Nuclear Security Administration (NNSA) Y-12 National Security Compl
 
 #### Model Purpose
 
-SDI developed a general purpose simulation model which allows Y-12 wide latitude in describing specific production scenarios through entries in database tables.
+SDI developed the Integrated Resource Planning Model (IRPM), a general purpose simulation model which allows Y-12 wide latitude in describing specific production scenarios through entries in database tables. The two Winter Simulation Conference papers below, written by the Y-12 team, describe the IRPM and the database-driven architecture behind it.
 
 <img src="/images/CaseDOE_EquipmentRehab.png" alt="DOE Equipment Rehab Model">
 
@@ -114,7 +114,9 @@ Nuclear weapons requiring rehab are forecasted as an input to the model. Compone
 
 ### Papers
 
-*[A Supply Chain Paradigm to Model Business Processes at the Y-12 National Security Complex](http://www.informs-sim.org/wsc07papers/246.pdf)*; Kress, R; Dixon, J.; Insalaco, T.; Rinehart, R., 2007 Winter Simulation Conference.
+*[A Supply Chain Paradigm to Model Business Processes at the Y-12 National Security Complex](https://informs-sim.org/wsc07papers/246.pdf)*; Kress, R; Dixon, J.; Insalaco, T.; Rinehart, R., 2007 Winter Simulation Conference.
+
+*[Database-Intensive Process Simulation at the Y-12 National Security Complex](https://informs-sim.org/wsc06papers/256.pdf)*; Kress, R.; Bills, K.; Dixon, J.; Rinehart, R., BWXT Y-12, 2006 Winter Simulation Conference. Documents the database-driven architecture behind this model: built in SDI Supply Chain Builder, run entirely from database tables, with no items in the model at all.
 
 ---
 
@@ -128,7 +130,7 @@ In response to the accelerated cleanup goals of the Department of Energy, Sandia
 
 ### Paper
 
-*[Simulation of Waste Processing, Transportation, and Disposal Operations](http://www.informs-cs.org/wsc00papers/143.PDF)*; Janis Trone, Angela Guerin, Sandia National Labs; Amber Clay, Simulation Dynamics. 2000 Winter Simulation Conference.
+*[Simulation of Waste Processing, Transportation, and Disposal Operations](https://informs-sim.org/wsc00papers/143.PDF)*; Janis Trone, Angela Guerin, Sandia National Labs; Amber Clay, Simulation Dynamics. 2000 Winter Simulation Conference.
 
 ### Strategic Assessment
 

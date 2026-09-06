@@ -150,7 +150,7 @@ The following provides links to articles within this document that address strat
 
 ### WinterSim Paper
 
-*[Initializing a Distribution Supply Chain Simulation with Live Data](http://www.informs-cs.org/wsc03papers/206.pdf)*; Malay Dalal, Union Pacific Railroad; Henry Bell, Mike Denzien, Simulation Dynamics; Michael Keller, Insight Network Logistics. Winter Simulation Conference, 2003
+*[Initializing a Distribution Supply Chain Simulation with Live Data](https://informs-sim.org/wsc03papers/206.pdf)*; Malay Dalal, Union Pacific Railroad; Henry Bell, Mike Denzien, Simulation Dynamics; Michael Keller, Insight Network Logistics. Winter Simulation Conference, 2003
 
 ---
 
@@ -162,7 +162,7 @@ The following provides links to articles within this document that address strat
 
 #### Background
 
-Extracted from: *[T.Loads Abbreviated Systems Architecture](http://www.informs-sim.org/wsc01papers/098.PDF)*; [Bob Hamber](https://www.linkedin.com/in/bobhamber/) 2001
+Extracted from: *[T.Loads Abbreviated Systems Architecture](https://informs-sim.org/wsc01papers/098.PDF)*; [Bob Hamber](https://www.linkedin.com/in/bobhamber/) 2001
 
 The Tactical Logistics Distribution System (T.LoaDS or TLoaDS) is a powerful and flexible simulation application for assessing current or future tactical or sea-based distribution systems. In its current state of development, it is an analytical model for assessing the pros and cons of new doctrine, distribution techniques, organizational structures, and equipment concepts. It can also be used to find out how to best use available resources to sustain a military force in a wide variety of scenarios. The "System" in TLoaDS refers to its modular architecture and that it is more that just a simulation. It is a suite of analytical study tools.
 
@@ -208,6 +208,10 @@ TLoaDS development started in 1997 under the sponsorship of Marine Corps Systems
 #### Relationship between TLoaDS, CLoaDS, X.LoaDS and A-LoaDS
 
 TLoaDS and CLoaDS are application names defined in context of both the current sponsors and initial uses. TLoaDS is designed to simulate the sustainment and movement of marine air ground task forces (MAGTFs) ashore from ships at sea, as if those ships never run out of supplies. CLoaDS is designed to simulate the sustainment of those ships at sea. This includes the shuttle ships resupplying the station ships, and the station ships resupplying the ships that resupply the MAGTF. The figure to the right shows this simplistic application relationship.
+
+### Paper
+
+*[Tactical Logistics and Distribution Systems (TLoaDS) Simulation](https://informs-sim.org/wsc99papers/170.PDF)*; David J. Parsons, L. C. Krause, Simulation Dynamics. 1999 Winter Simulation Conference.
 
 ---
 

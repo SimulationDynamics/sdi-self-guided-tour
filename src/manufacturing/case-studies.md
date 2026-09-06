@@ -112,6 +112,10 @@ The following list provides links to articles within this document that address 
 - [Postponement](/supply-chain/#postponement)
   In the current production scenario, packaging lines are dedicated to bulk production lines and must pack off product as it is produced. The future scenarios being considered introduce bulk storage between bulk production and packaging, with new high speed packaging lines that could operate on a different schedule from bulk production. This form of postponement allows greater flexibility in scheduling of production and packaging resources.
 
+### Documentation
+
+*[SDI Industry: An Extend-Based Tool for Continuous and High-Speed Manufacturing](https://informs-sim.org/wsc98papers/048.PDF)*; Andrew J. Siprelle, Richard A. Phelps, M. Michelle Barnes, Simulation Dynamics. 1998 Winter Simulation Conference.
+
 ---
 
 <h2 id="food-processing-capacity-optimization">Food Processing Capacity Optimization</h2>
@@ -170,5 +174,11 @@ The following list provides links to articles within this document that address 
 
 ### Documentation
 
-*[Capacity Planning Simulation of an Olive Processing Plant](https://chiaha.com/papers/capacity-planning-olive-processing-plant.pdf)*
+*[Capacity Planning Simulation of an Olive Processing Plant](https://chiaha.com/papers/capacity-planning-olive-processing-plant.pdf)*; M. Michelle Barnes, Richard A. Phelps, Simulation Dynamics; Robert Rugeroni, Lindsay Olive Company.
+
+### Press
+
+*[Virtual Engineering's New Frontier](https://extendsim.com/images/downloads/papers/mfg-foodeng.pdf)*; Kevin T. Higgins, Senior Editor, **Food Engineering**, 22 March 2003. Andrew J. Siprelle on flow architecture and the "slurp factor"; Robert Rugeroni, MIS director at Bell-Carter Foods, on the pitting and packaging bottlenecks this model found.
+
+*[Lindsay Olive Company Thrives on Simulation](https://www.foodonline.com/doc/lindsay-olive-company-thrives-on-simulation-0001)*; **Food Online** case study on the SDI Industry capacity model.
 

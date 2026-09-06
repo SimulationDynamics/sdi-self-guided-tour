@@ -198,6 +198,10 @@ The following list provides links to articles within this document that address 
 
   In this model the first line of defense against plant capacity falling short of demand was transferring demand to another less efficient plant. If capacity system wide was under demand, prebuilds were scheduled.
 
+### Documentation
+
+*[Benefits of Using a Supply Chain Simulation Tool to Study Inventory Allocation](https://informs-sim.org/wsc03papers/030.pdf)*; Andrew J. Siprelle, David J. Parsons, Robin J. Clark, Simulation Dynamics. 2003 Winter Simulation Conference.
+
 ---
 
 <h2 id="general-mills">Revolutionary Supply Chain Understanding - General Mills</h2>
@@ -323,3 +327,7 @@ The following provides links to articles within this document that address strat
 
 - [Flexible Ordering](/supply-chain/production/#flexible-ordering)
   Flexible ordering was used as a primary tool to reduce large safety stocks at the US assemble plant. The need for large safety stocks results from long lead times results from short term demand unpredictability.
+
+### Documentation
+
+*[Safety Stock Savings from Flexible Ordering: A Simulation Study](https://www.chiaha.com/papers/safety-stock-savings-flexible-ordering.pdf)*; David J. Parsons, Simulation Dynamics.

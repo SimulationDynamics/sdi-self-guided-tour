@@ -50,7 +50,7 @@ SDI's simulation tools have proven effective in assessing long term resource req
 
 ### Case Studies
 
-- [DOE Equipment Rehab Model](/resource-management/case-studies/#doe-equipment-rehab)
+- [DOE Equipment Rehab Model (IRPM)](/resource-management/case-studies/#doe-equipment-rehab)
   This model is designed to assess resource requirements over a 25 year horizon with a wide range of varying supply and demand scenarios.
 - [TRU-Waste System Model](/resource-management/case-studies/#tru-waste-system)
   This model was used to assess transport and storage resources required to meet Department of Energy goals for TRU-Waste disposal over a 35 year period.
