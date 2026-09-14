@@ -61,7 +61,7 @@ The VinLogic model was developed by Simulation Dynamics for Insight Network Logi
 
 <img src="/images/CaseVINLogicNetwork.png" alt="VINLogic Scope">
 
-**The Challenge:** An automobile manufacturer and railroad company formed a joint venture to manage the entire distribution system between 12 factories and 80+ dealers across the United States. At any given time, over 100,000 vehicles worth billions of dollars were in transit. The goal was ambitious: reduce the number of vehicles in the network by 20% to achieve massive cost savings.
+**The Challenge:** Insight Network Logistics, a Union Pacific subsidiary, managed new-vehicle distribution for DaimlerChrysler across North America: about 16 assembly plants, 18 rail loading facilities, 60+ rail unloading facilities, 10 ports and about 3,500 dealers, moving roughly 2.5 million vehicles a year. At any given time, over 100,000 vehicles worth billions of dollars were in transit. The goal was ambitious: reduce the number of vehicles in the network by 20% to achieve massive cost savings.
 
 **The Technical Crisis:** Originally built in a major commercial DES platform using the SDI Supply Chain Builder library, the model struggled with terabytes of real-time data and took 6 hours to run. This made it unusable for business decision-making - no CFO could wait 6 hours for budget analysis, and crisis response was impossible. *(The database architecture SDI originally designed for that platform has since been reimplemented as an open, cloud-accessible platform — see [Cloud DB Viewer](https://db.chiaha.com/). The supply chain simulation engine has been rebuilt too.)*
 
@@ -103,8 +103,8 @@ The model is initialized with this data, allowing simulation of network behavior
 
 **Quantified Business Value:**
 
-- $1 Billion annual savings through 20% reduction in vehicles-in-network
-- Forecast accuracy improved from 70% to 95%+
+- $21.7M in inventory carrying costs saved and transit time reduced 19% from one set of recommendations
+- Forecast accuracy of over 90%
 - Used continuously for over 10 years as core business asset
 - Successfully managed Hurricane Katrina network disruptions with real-time rerouting
 

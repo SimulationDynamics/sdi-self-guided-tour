@@ -24,10 +24,9 @@ In each of these areas, you can look at the strategic areas that our models have
 
 <div class="callout">SDI Proven Business Impact - 35+ Years of Quantified Results</div>
 
-**Billion-Dollar Impact:**
+**Quantified Impact:**
 
-- $1B+ annual savings (single automotive logistics client - VINLogic)
-- $21.7M inventory cost savings with 19% transit time reduction
+- $21.7M inventory carrying cost savings with 19% transit time reduction (automotive logistics - VINLogic)
 - $1-2M cost savings + $5-7M inventory reduction (CPG supplier-retail optimization)
 
 **Operational Excellence:**
@@ -88,7 +87,7 @@ SDI's founder originally designed the database system that powers ExtendSim®'s 
 
 **[Cloud DB Viewer](https://db.chiaha.com/)** — Explore ten real ExtendSim®-compatible simulation databases in your browser, and edit any cell as you go. No license required. No software to install. Share a table with your team via URL.
 
-The database-driven approach that powers every case study on this tour — from nuclear weapons resource planning to billion-dollar automotive logistics — is now available as an open, cloud-accessible platform. Your data belongs to you.
+The database-driven approach that powers every case study on this tour — from nuclear weapons resource planning to a 2.5-million-vehicle automotive distribution network — is now available as an open, cloud-accessible platform. Your data belongs to you.
 
 The database was the first thing we rebuilt. It was not the last.
 
